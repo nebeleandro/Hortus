@@ -1,5 +1,4 @@
 .slogan, .contenido .slogan__index, .mainQuienes .slogan__quienes, .mainContacto .slogan__contacto, .mainServicios .slogan__servicios {
-  /*	padding-top: 100px;*/
   font-weight: bolder;
   color: black;
   font-style: italic;
@@ -15,15 +14,11 @@ header {
   width: 100vw;
   height: 10vh;
   z-index: 99999;
-  background-color: #F9F6F2;
+  background-color: #EEEEEE;
   position: fixed;
-  display: inline-flex;
-  /*
-    .navbar-nav{
-        transform: translate(-5%, 0%);
-    }*/ }
+  display: inline-flex; }
   header .header__isotipo {
-    transform: translate(0%, -25%);
+    transform: translate(0%, -15%);
     width: 35vh; }
   header .navbar-collapse {
     transform: translate(50%, 1px); }
@@ -33,7 +28,7 @@ header {
     text-decoration: none;
     color: #424241;
     border-radius: 5px;
-    background-color: #F9F6F2;
+    background-color: #EEEEEE;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     text-align: center;
@@ -52,74 +47,110 @@ header {
   header #navbarNavAltMarkup {
     transform: translate(0%, 30%);
     size: 250%;
-    background-color: #F9F6F2; }
+    background-color: #EEEEEE; }
 
-/*
-header {
-
-    align-items: flex-start;
-    justify-content: space-between;
-    
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    z-index: 99999;
-    background-color: #d8d8d8;
-    position: fixed;
-    display: inline-flex;
-   
-
-        .header__isotipo {
-            transform: translate(0%, -25%);
-            width: 35vh;
-        }
-
-        .header__nav{
-            transform: translate(-5%, 40%);
-        }
-        a {
-            text-decoration: none;
-            color: #424241;
-            border-radius: 5px;
-            background-color: #D8D8D8;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 15px;
-            text-align: center;
-            vertical-align: middle;
-            animation-duration: 500ms;
-            transform: translate(0%, 30%);
-            }
-
-        a:hover {
-                background-color: white;
-                color: #D8D8D8;
-            }
-
-            &__navbar {
-                margin-top: 50%;
-            }
+.contenido {
+  background: #444444;
+  /*
+    .contenido__servicios {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       
         
+        background-size: cover;
+        width: 30%;
+        transform: translate(117%, 0%);
 
-      /*  .navbar-toggler {
-            transform: translate(-40%, -40%);
-          
-        }*/
-/*
-        .navbar__center{
+       .contenido__servicios__titulo {
+            color: #F6C26B;
+            font-weight: bolder;
+            font-size: 150%;
             text-align: center;
-        }
-*/
-/*
-       #navbarNavAltMarkup {
-            transform: translate(0%, -32%);
-            size: 250%;
-            background-color: #D8D8D8;
+            text-transform: uppercase;
           
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            padding: 2%;
+        }
+
+        li{
+            margin: 10%;
+            padding: 2%;
+            color: #444444;
+            background-color: #F6C26B;
+            width: 100%;
+            text-align: center;
+          
+            height: fit-content;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding-right: 1%;
+            padding-left: 1%;
+            border-radius: 5%;
+            font-weight: bold;
+            
+        }
+
+        .alert-dark{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .contenido__servicios__lista {
+            color: #D8D8D8;
+            text-align: center;
+            list-style: none;
+            padding: 0%;
+            line-height: 2;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            font-style: normal;
         }
     }
 */
-.contenido {
-  background: #444444; }
+  /*   .contenido__proyectos {
+        padding: 50px;
+        background-color: #F9F6F2;
+        background-size: cover;
+
+        
+
+        .contenido__proyectos__titulo {
+            color: #D8D8D8;
+            font-weight: bold;
+            font-size: 150%;
+            text-align: center;
+            text-transform: uppercase;
+            
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            padding: 50px;
+        }
+
+        
+        .slider {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .slider__imagenes {
+            transform: translate(25%, 0%);
+
+            .carousel-control-next-icon{
+                color: #444444;
+            }
+        }
+    
+    }
+    */ }
   .contenido p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -167,102 +198,11 @@ header {
       text-align: center;
       color: #D8D8D8;
       font-style: italic; }
-  .contenido .contenido__servicios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    width: 30%;
-    transform: translate(117%, 0%); }
-    .contenido .contenido__servicios .contenido__servicios__titulo {
-      color: #F6C26B;
-      font-weight: bolder;
-      font-size: 150%;
-      text-align: center;
-      text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      padding: 2%; }
-    .contenido .contenido__servicios li {
-      margin: 10%;
-      padding: 2%;
-      color: #444444;
-      background-color: #F6C26B;
-      width: 100%;
-      text-align: center;
-      height: fit-content;
-      margin-left: 2%;
-      margin-right: 2%;
-      padding-right: 1%;
-      padding-left: 1%;
-      border-radius: 5%;
-      font-weight: bold; }
-    .contenido .contenido__servicios .alert-dark {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    .contenido .contenido__servicios .contenido__servicios__lista {
-      color: #D8D8D8;
-      text-align: center;
-      list-style: none;
-      padding: 0%;
-      line-height: 2;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
-      font-style: normal; }
-  .contenido .contenido__proyectos {
-    padding: 50px;
-    background-color: #F9F6F2;
-    background-size: cover;
-    /*
-        .contenido__proyectos__sliderFotos {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: center;
-            justify-content: space-around;
-            border: solid 30px #D8D8D8;
-            background-color: #D8D8D8;
-            border-radius: 15px;
-            margin: 30px;
-        }
-
-      .contenido__proyectos__sliderFotos__img {
-            transition-duration: 1s;
-            border-radius: 10px;
-        }
-
-        .contenido__proyectos__sliderFotos__img:hover {
-            transform: scale(1.5);
-        }
-*/ }
-    .contenido .contenido__proyectos .contenido__proyectos__titulo {
-      color: #D8D8D8;
-      font-weight: bold;
-      font-size: 150%;
-      text-align: center;
-      text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      padding: 50px; }
-    .contenido .contenido__proyectos .slider {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      /* transform: translate(150%, 0%);*/ }
-    .contenido .contenido__proyectos .slider__imagenes {
-      transform: translate(25%, 0%); }
-      .contenido .contenido__proyectos .slider__imagenes .carousel-control-next-icon {
-        color: #444444; }
   .contenido .contenido__quienes {
-    background: white;
+    background: #424242;
     padding: 50px; }
     .contenido .contenido__quienes .contenido__quienes__titulo {
-      color: black;
+      color: #EEEEEE;
       font-weight: bold;
       font-size: 150%;
       text-align: center;
@@ -271,7 +211,7 @@ header {
       font-weight: 500;
       font-style: normal; }
     .contenido .contenido__quienes .contenido__quienes__texto {
-      color: grey;
+      color: #EEEEEE;
       text-align: center;
       padding: 20px; }
   .contenido .contenido__contacto {
@@ -279,7 +219,7 @@ header {
     flex-direction: column;
     align-items: center;
     font-weight: bold;
-    background: white;
+    background: #EEEEEE;
     padding: 30px; }
     .contenido .contenido__contacto .contenido__contacto__titulo {
       font-size: 150%;
@@ -292,15 +232,15 @@ header {
     .contenido .contenido__contacto .contenido__contacto__form {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      /*  justify-content: space-around;*/
       color: black;
       padding: 10px;
       font-family: 'Roboto Condensed', sans-serif;
       font-weight: 300;
       font-style: normal;
       width: 70%;
-      height: 600px;
-      border: solid 5px #D8D8D8; }
+      height: auto;
+      border: solid 5px #424242; }
       .contenido .contenido__contacto .contenido__contacto__form textarea {
         width: 100%; }
       .contenido .contenido__contacto .contenido__contacto__form .text_form {
@@ -347,7 +287,7 @@ header {
   .mainQuienes .contenido__info {
     padding: 2%; }
     .mainQuienes .contenido__info h1.contenido__info__titulo {
-      color: #D8D8D8;
+      color: #EEEEEE;
       font-weight: bold;
       font-size: 150%;
       text-align: center;
@@ -362,15 +302,144 @@ header {
       .mainQuienes .contenido__info .info__text .contenido__info__texto {
         color: #424241;
         text-align: center; }
+  .mainQuienes h2 {
+    color: #EEEEEE;
+    margin-bottom: 0%; }
+  @media only screen and (min-width: 1200px) {
+    .mainQuienes .categorias {
+      display: grid;
+      height: 80vh;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      /* grid-column-gap: 10px;
+        grid-row-gap: 10px;*/
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
+  @media only screen and (max-width: 1200px) {
+    .mainQuienes .categorias {
+      display: grid;
+      height: 70vh;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      /* grid-column-gap: 10px;
+        grid-row-gap: 10px;*/
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
+  @media only screen and (max-width: 600px) {
+    .mainQuienes .categorias {
+      display: grid;
+      height: 70vh;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+      /* grid-column-gap: 10px;
+        grid-row-gap: 10px;*/
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
+  .mainQuienes .categorias .info, .mainQuienes .categorias .mainProyectos .info__producto, .mainProyectos .mainQuienes .categorias .info__producto, .mainQuienes .categorias .mainProyectos .info__espacio, .mainProyectos .mainQuienes .categorias .info__espacio, .mainQuienes .categorias .mainProyectos .info__animacion, .mainProyectos .mainQuienes .categorias .info__animacion, .mainQuienes .categorias .mainProyectos .info__personaje, .mainProyectos .mainQuienes .categorias .info__personaje, .mainQuienes .categorias .mainProyectos .info__presentacion, .mainProyectos .mainQuienes .categorias .info__presentacion, .mainQuienes .categorias .mainProyectos .info__modelado, .mainProyectos .mainQuienes .categorias .info__modelado {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    font-size: 100%;
+    width: unset;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    color: white;
+    border-radius: 5%; }
+  .mainQuienes .titProyecto {
+    grid-area: titulo; }
+  .mainQuienes .footer__proyectos {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: profoot; }
+  .mainQuienes .diProducto {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: producto; }
+  .mainQuienes .diEspacio {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: espacio; }
+  .mainQuienes .modelados {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: modelado; }
+  .mainQuienes .graficas {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: grafica; }
+  .mainQuienes .personajes {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: personaje; }
+  .mainQuienes .animaciones {
+    grid-area: animacion;
+    max-height: 100%;
+    max-width: 100%; }
+  .mainQuienes .imgGrilla {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; }
+  .mainQuienes .diProducto {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainQuienes .diProducto p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainQuienes .diEspacio {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainQuienes .diEspacio p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainQuienes .modelados {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainQuienes .modelados p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainQuienes .graficas {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainQuienes .graficas p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainQuienes .personajes {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainQuienes .personajes p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainQuienes .animaciones {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainQuienes .animaciones p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainQuienes .categorias article {
+    filter: saturate(5%);
+    font-size: 30px; }
+  .mainQuienes .categorias article:hover {
+    filter: saturate(100%); }
 
 .mainContacto {
-  background: #424241;
-  /*   iframe{
-        
-        padding: 10px;
-        width:800px;
-        height: 200px;
-    }*/ }
+  background: #424241; }
   .mainContacto p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -388,7 +457,6 @@ header {
     font-style: normal;
     padding: 50px; }
   .mainContacto .portada {
-    background-image: url("../imagenes/portada2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -479,7 +547,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: contain;
-    height: 110vh; }
+    height: 1000px; }
   .mainServicios .slogan__servicios {
     /* transform: translate(0%, 700%);*/
     background-color: rgba(128, 128, 128, 0.7);
@@ -495,244 +563,318 @@ header {
     padding-right: 1%;
     padding-left: 1%;
     color: white; }
-  .mainServicios .row {
+  .mainServicios h2 {
+    color: #EEEEEE;
+    margin-bottom: 0%; }
+  .mainServicios .contenido__info {
+    padding: 2%; }
+    .mainServicios .contenido__info h1.contenido__info__titulo {
+      color: #EEEEEE;
+      font-weight: bold;
+      font-size: 150%;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      padding: 10px; }
+    .mainServicios .contenido__info .info__text {
+      padding: 3%;
+      background-color: #D8D8D8; }
+      .mainServicios .contenido__info .info__text .contenido__info__texto {
+        color: #424241;
+        text-align: center; }
+  @media only screen and (min-width: 1200px) {
+    .mainServicios .categorias {
+      display: grid;
+      height: 80vh;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      /* grid-column-gap: 10px;
+       grid-row-gap: 10px;*/
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
+  @media only screen and (max-width: 1200px) {
+    .mainServicios .categorias {
+      display: grid;
+      height: 70vh;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      /* grid-column-gap: 10px;
+       grid-row-gap: 10px;*/
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
+  @media only screen and (max-width: 600px) {
+    .mainServicios .categorias {
+      display: grid;
+      height: 70vh;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+      /* grid-column-gap: 10px;
+       grid-row-gap: 10px;*/
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
+  .mainServicios .categorias .info, .mainServicios .categorias .mainProyectos .info__producto, .mainProyectos .mainServicios .categorias .info__producto, .mainServicios .categorias .mainProyectos .info__espacio, .mainProyectos .mainServicios .categorias .info__espacio, .mainServicios .categorias .mainProyectos .info__animacion, .mainProyectos .mainServicios .categorias .info__animacion, .mainServicios .categorias .mainProyectos .info__personaje, .mainProyectos .mainServicios .categorias .info__personaje, .mainServicios .categorias .mainProyectos .info__presentacion, .mainProyectos .mainServicios .categorias .info__presentacion, .mainServicios .categorias .mainProyectos .info__modelado, .mainProyectos .mainServicios .categorias .info__modelado {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    font-size: 100%;
+    width: unset;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    color: white;
+    border-radius: 5%; }
+  .mainServicios .titProyecto {
+    grid-area: titulo; }
+  .mainServicios .footer__proyectos {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: profoot; }
+  .mainServicios .diProducto {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: producto; }
+  .mainServicios .diEspacio {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: espacio; }
+  .mainServicios .modelados {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: modelado; }
+  .mainServicios .graficas {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: grafica; }
+  .mainServicios .personajes {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: personaje; }
+  .mainServicios .animaciones {
+    grid-area: animacion;
+    max-height: 100%;
+    max-width: 100%; }
+  .mainServicios .imgGrilla {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; }
+  .mainServicios .diProducto {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainServicios .diProducto p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainServicios .diEspacio {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainServicios .diEspacio p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainServicios .modelados {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainServicios .modelados p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainServicios .graficas {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainServicios .graficas p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainServicios .personajes {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainServicios .personajes p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainServicios .animaciones {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainServicios .animaciones p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainServicios .categorias article {
+    filter: saturate(5%);
+    font-size: 30px; }
+  .mainServicios .categorias article:hover {
+    filter: saturate(100%); }
+
+.mainProyectos {
+  background: #424241; }
+  .mainProyectos .contenido__plagas {
+    padding-top: 50%; }
+  .mainProyectos .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
-  .mainServicios .card {
+    justify-content: space-around;
+    margin-top: 8%; }
+  .mainProyectos .card {
     margin-bottom: 5%;
     width: auto;
     color: grey; }
-    .mainServicios .card .card__contenido {
+    .mainProyectos .card .card__contenido {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       padding: 2%; }
-      .mainServicios .card .card__contenido .card-img-top {
+      .mainProyectos .card .card__contenido .card-img-top {
         border-radius: 5%;
         width: 90%;
         padding: 0%; }
-      .mainServicios .card .card__contenido .card-text {
+      .mainProyectos .card .card__contenido .card-text {
         width: 90%;
         text-align: center; }
-      .mainServicios .card .card__contenido .card-body {
+      .mainProyectos .card .card__contenido .card-body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 0%; }
-    .mainServicios .card .info, .mainServicios .card .info__producto, .mainServicios .card .info__espacio, .mainServicios .card .info__animacion, .mainServicios .card .info__personaje, .mainServicios .card .info__presentacion, .mainServicios .card .info__modelado {
+    .mainProyectos .card .info, .mainProyectos .card .info__producto, .mainProyectos .card .info__espacio, .mainProyectos .card .info__animacion, .mainProyectos .card .info__personaje, .mainProyectos .card .info__presentacion, .mainProyectos .card .info__modelado {
       position: relative;
       text-align: center;
       font-family: 'Roboto Condensed', sans-serif;
       font-weight: bold;
       font-size: 30px;
       color: black; }
-  .mainServicios .info__producto {
-    /* transform: translate(0px, -270px);
-    */ }
-  .mainServicios .portada {
-    transform: translate(0%, -11%); }
-  .mainServicios .info__espacio {
-    /*transform: translate(-30px, -150px);
+  .mainProyectos p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 0; }
+  .mainProyectos .Titulo {
+    color: #D8D8D8;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 50px; }
+  @media only screen and (min-width: 1200px) {
+    .mainProyectos .categorias {
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      justify-content: space-between;
+      align-content: space-between;
+      grid-template-areas: "titulo titulo titulo titulo titulo" "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
+  .mainProyectos .categorias .info, .mainProyectos .categorias .info__producto, .mainProyectos .categorias .info__espacio, .mainProyectos .categorias .info__animacion, .mainProyectos .categorias .info__personaje, .mainProyectos .categorias .info__presentacion, .mainProyectos .categorias .info__modelado {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    font-size: 100%;
+    width: unset;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
     color: white;
-    */ }
-  .mainServicios .info__animacion {
-    /* transform: translate(0px, -250px);
-    */ }
-  .mainServicios .info__personaje {
-    /*  transform: translate(0px, -310px);
-    */ }
-  .mainServicios .info__presentacion {
-    /* transform: translate(0px, -170px);
-    color: white;
-   */ }
-
-#bodyProyecto {
-  /*
-    .header{ 
-        .header__isotipo {
-        transform: translate(5%, -20%);
-        height: 200%;
-        width: 20%;
-    }
-
-    
-
-
-    .navbar-collapse{ 
-        transform: translate(-10%, 0%);
-    }
-
-    a {
-        text-decoration: none;
-        color: #424241;
-        border-radius: 5px;
-        background-color: #D8D8D8;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-        text-align: center;
-        vertical-align: middle;
-        animation-duration: 500ms;
-        transform: translate(-15%, 30%);
-        }
-        
-    }*/ }
-  #bodyProyecto .mainProyectos {
-    background: #424241; }
-    #bodyProyecto .mainProyectos p {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 200;
-      font-style: normal;
-      margin-bottom: 0; }
-    #bodyProyecto .mainProyectos .Titulo {
-      color: #D8D8D8;
-      font-weight: bold;
-      font-size: 150%;
-      text-align: center;
-      text-transform: uppercase;
-      text-decoration: underline;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      padding: 50px; }
-    @media only screen and (min-width: 1200px) {
-      #bodyProyecto .mainProyectos .categorias {
-        display: grid;
-        height: 100vh;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
-        justify-content: space-between;
-        align-content: space-between;
-        grid-template-areas: "titulo titulo titulo titulo titulo" "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
-    @media only screen and (max-width: 1200px) {
-      #bodyProyecto .mainProyectos .categorias {
-        display: grid;
-        height: 70vh;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
-        justify-content: space-between;
-        align-content: space-between;
-        grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
-    @media only screen and (max-width: 600px) {
-      #bodyProyecto .mainProyectos .categorias {
-        display: grid;
-        height: 70vh;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 1fr);
-        /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
-        justify-content: space-between;
-        align-content: space-between;
-        grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
-    #bodyProyecto .mainProyectos .categorias .info, #bodyProyecto .mainProyectos .categorias .mainServicios .info__producto, .mainServicios #bodyProyecto .mainProyectos .categorias .info__producto, #bodyProyecto .mainProyectos .categorias .mainServicios .info__espacio, .mainServicios #bodyProyecto .mainProyectos .categorias .info__espacio, #bodyProyecto .mainProyectos .categorias .mainServicios .info__animacion, .mainServicios #bodyProyecto .mainProyectos .categorias .info__animacion, #bodyProyecto .mainProyectos .categorias .mainServicios .info__personaje, .mainServicios #bodyProyecto .mainProyectos .categorias .info__personaje, #bodyProyecto .mainProyectos .categorias .mainServicios .info__presentacion, .mainServicios #bodyProyecto .mainProyectos .categorias .info__presentacion, #bodyProyecto .mainProyectos .categorias .mainServicios .info__modelado, .mainServicios #bodyProyecto .mainProyectos .categorias .info__modelado {
-      background-color: rgba(0, 0, 0, 0.7);
-      background-size: cover;
-      font-size: 100%;
-      width: unset;
-      margin-left: 2%;
-      margin-right: 2%;
-      padding-right: 1%;
-      padding-left: 1%;
-      color: white;
-      border-radius: 5%; }
-    #bodyProyecto .mainProyectos .titProyecto {
-      grid-area: titulo; }
-    #bodyProyecto .mainProyectos .footer__proyectos {
-      max-height: 100%;
-      max-width: 100%;
-      grid-area: profoot; }
-    #bodyProyecto .mainProyectos .diProducto {
-      max-height: 100%;
-      max-width: 100%;
-      grid-area: producto; }
-    #bodyProyecto .mainProyectos .diEspacio {
-      max-height: 100%;
-      max-width: 100%;
-      grid-area: espacio; }
-    #bodyProyecto .mainProyectos .modelados {
-      max-height: 100%;
-      max-width: 100%;
-      grid-area: modelado; }
-    #bodyProyecto .mainProyectos .graficas {
-      max-height: 100%;
-      max-width: 100%;
-      grid-area: grafica; }
-    #bodyProyecto .mainProyectos .personajes {
-      max-height: 100%;
-      max-width: 100%;
-      grid-area: personaje; }
-    #bodyProyecto .mainProyectos .animaciones {
-      grid-area: animacion;
-      max-height: 100%;
-      max-width: 100%; }
-    #bodyProyecto .mainProyectos .imgGrilla {
-      width: 100%;
-      height: 100%;
-      display: block;
-      object-fit: cover; }
-    #bodyProyecto .mainProyectos .diProducto {
-      position: relative;
-      text-align: center;
-      color: grey; }
-    #bodyProyecto .mainProyectos .diProducto p {
-      position: absolute;
-      bottom: 8px;
-      left: 16px; }
-    #bodyProyecto .mainProyectos .diEspacio {
-      position: relative;
-      text-align: center;
-      color: grey; }
-    #bodyProyecto .mainProyectos .diEspacio p {
-      position: absolute;
-      bottom: 8px;
-      left: 16px; }
-    #bodyProyecto .mainProyectos .modelados {
-      position: relative;
-      text-align: center;
-      color: grey; }
-    #bodyProyecto .mainProyectos .modelados p {
-      position: absolute;
-      bottom: 8px;
-      left: 16px; }
-    #bodyProyecto .mainProyectos .graficas {
-      position: relative;
-      text-align: center;
-      color: grey; }
-    #bodyProyecto .mainProyectos .graficas p {
-      position: absolute;
-      bottom: 8px;
-      left: 16px; }
-    #bodyProyecto .mainProyectos .personajes {
-      position: relative;
-      text-align: center;
-      color: grey; }
-    #bodyProyecto .mainProyectos .personajes p {
-      position: absolute;
-      bottom: 8px;
-      left: 16px; }
-    #bodyProyecto .mainProyectos .animaciones {
-      position: relative;
-      text-align: center;
-      color: grey; }
-    #bodyProyecto .mainProyectos .animaciones p {
-      position: absolute;
-      bottom: 8px;
-      left: 16px; }
-    #bodyProyecto .mainProyectos .categorias article {
-      filter: saturate(5%);
-      font-size: 30px; }
-    #bodyProyecto .mainProyectos .categorias article:hover {
-      filter: saturate(100%); }
+    border-radius: 5%; }
+  .mainProyectos .titProyecto {
+    grid-area: titulo; }
+  .mainProyectos .diProducto {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: producto; }
+  .mainProyectos .diEspacio {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: espacio; }
+  .mainProyectos .modelados {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: modelado; }
+  .mainProyectos .graficas {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: grafica; }
+  .mainProyectos .personajes {
+    max-height: 100%;
+    max-width: 100%;
+    grid-area: personaje; }
+  .mainProyectos .animaciones {
+    grid-area: animacion;
+    max-height: 100%;
+    max-width: 100%; }
+  .mainProyectos .imgGrilla {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; }
+  .mainProyectos .diProducto {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainProyectos .diProducto p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainProyectos .diEspacio {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainProyectos .diEspacio p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainProyectos .modelados {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainProyectos .modelados p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainProyectos .graficas {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainProyectos .graficas p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainProyectos .personajes {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainProyectos .personajes p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
+  .mainProyectos .animaciones {
+    position: relative;
+    text-align: center;
+    color: grey; }
+  .mainProyectos .animaciones p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; }
 
 footer {
   display: flex;
   flex-direction: column;
   color: black;
-  background: #D8D8D8;
+  background: #546E7A;
   background-size: cover;
   padding: 10px;
   z-index: 9999; }
