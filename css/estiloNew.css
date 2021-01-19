@@ -587,7 +587,7 @@ header {
   @media only screen and (min-width: 1200px) {
     .mainServicios .categorias {
       display: grid;
-      height: 80vh;
+      height: 90vh;
       grid-template-columns: repeat(5, 1fr);
       grid-template-rows: repeat(2, 1fr);
       /* grid-column-gap: 10px;
@@ -598,25 +598,25 @@ header {
   @media only screen and (max-width: 1200px) {
     .mainServicios .categorias {
       display: grid;
-      height: 70vh;
+      height: 90vh;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
+      grid-template-areas: "producto espacio" "grafica personaje" "modelado animacion"; } }
   @media only screen and (max-width: 600px) {
     .mainServicios .categorias {
       display: grid;
-      height: 70vh;
+      height: 90vh;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 1fr);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
+      grid-template-areas: "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
   .mainServicios .categorias .info, .mainServicios .categorias .mainProyectos .info__producto, .mainProyectos .mainServicios .categorias .info__producto, .mainServicios .categorias .mainProyectos .info__espacio, .mainProyectos .mainServicios .categorias .info__espacio, .mainServicios .categorias .mainProyectos .info__animacion, .mainProyectos .mainServicios .categorias .info__animacion, .mainServicios .categorias .mainProyectos .info__personaje, .mainProyectos .mainServicios .categorias .info__personaje, .mainServicios .categorias .mainProyectos .info__presentacion, .mainProyectos .mainServicios .categorias .info__presentacion, .mainServicios .categorias .mainProyectos .info__modelado, .mainProyectos .mainServicios .categorias .info__modelado {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
