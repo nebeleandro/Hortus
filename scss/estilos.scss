@@ -655,7 +655,7 @@ header {
     }
 
     .portada {
-      
+        background-image: url('../imagenes/portada2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -1097,18 +1097,18 @@ h1.contenido__info__titulo {
         
         color: grey;
       
-       
+       padding: 0%;
         
     .card__contenido{
 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 2%;
+        padding: 0%;
     
     .card-img-top{
-        border-radius: 5%;
-        width: 90%;
+       
+        width: 100%;
         padding: 0%;
     }
 
