@@ -37,7 +37,23 @@ function tienenPlagas(){
         console.log("Deberías empezar a tener plantas en tu casa!")
     }
 
+function Plaga (causas, efectos, solucionesOrganicas, solucionesQuimicas, dosificacionOrganica, dosificacionQuimica){
+    this.causas = causas;
+    this.efectos = efectos;
+    this.solucionOrganica = solucionesOrganicas;
+    this.solucionesQuimicas = solucionesQuimicas;
+    this.dosificacionOrganica = dosificacionOrganica;
+    this.dosificacionQuimica = dosificacionQuimica;
+}
 
+var cochinilla = new Plaga("Estres o planta debil", "La planta no puede seguir desarrollandose y muere", "Jabón Potasico y/o Aceite neem", "Mamboreta D", "5ml/l","2ml/l");
+
+var especificacion = prompt("Que información necesitas sobre la cochinilla?");
+if (!cochinilla[especificacion]) console.log("Te podemos hablas sobre causas, efectos, solucionesOrganicas, solucionesQuimicas, dosificacionesOrganicas y dosificacionesQuimicas");
+console.log(cochinilla[especificacion]);
+especificacion = prompt ("Que información necesitas sobre la cochinilla?");
+console.log (cochinilla[especificacion]);
+//console.log (cochinilla);
 
 
    
