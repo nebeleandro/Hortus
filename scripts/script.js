@@ -57,7 +57,7 @@ plaga.push(new Plaga("araña roja", "altas temperaturas", "Se alimenta de celula
 
 
 
-plaga.forEach(el => console.log(el))
+plaga.forEach(el => console.log(el));
 
 /*
 for (let plaga of plaga) {
@@ -94,7 +94,3 @@ console.log(hormiga[especificacion]);
 especificacion = prompt ("Que información necesitas sobre la hormiga?");
 console.log (hormiga[especificacion.toLowerCase()]); 
 }*/
-
-
-
-
