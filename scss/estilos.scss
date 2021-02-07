@@ -26,8 +26,8 @@ header {
     display: inline-flex;
 
     .header__isotipo {
-        transform: translate(0%, -15%);
-        width: 35vh;
+        
+        width: 20vh;
     }
     .navbar-collapse {
         transform: translate(50%, 1px);
@@ -654,8 +654,8 @@ header {
         padding: 50px;
     }
 
-    .portada {
-       
+    .portadaSoluciones {
+        background-image: url('../imagenes/portadaSoluciones.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -681,6 +681,28 @@ header {
         padding-right: 1%;
         padding-left: 1%;
         height: auto;
+    }
+
+    h1{
+        color: #EEEEEE;
+        font-weight: bold;
+        font-size: 150%;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 3%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding: 10px;
+    }
+
+    .formSoluciones{
+        label{
+            color: #EEEEEE ;
+            font-family: 'Montserrat', sans-serif;
+        }
+        padding-top: 4%;
+       // transform: translate(0%, -15%)
     }
 
     #gridContacto{

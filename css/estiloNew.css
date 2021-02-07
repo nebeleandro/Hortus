@@ -18,8 +18,7 @@ header {
   position: fixed;
   display: inline-flex; }
   header .header__isotipo {
-    transform: translate(0%, -15%);
-    width: 35vh; }
+    width: 20vh; }
   header .navbar-collapse {
     transform: translate(50%, 1px); }
   header .header__nav {
@@ -456,7 +455,8 @@ header {
     font-weight: 500;
     font-style: normal;
     padding: 50px; }
-  .mainContacto .portada {
+  .mainContacto .portadaSoluciones {
+    background-image: url("../imagenes/portadaSoluciones.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -477,6 +477,22 @@ header {
     padding-right: 1%;
     padding-left: 1%;
     height: auto; }
+  .mainContacto h1 {
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px; }
+  .mainContacto .formSoluciones {
+    padding-top: 4%; }
+    .mainContacto .formSoluciones label {
+      color: #EEEEEE;
+      font-family: 'Montserrat', sans-serif; }
   .mainContacto #gridContacto #formContact {
     height: 100%;
     width: 80%; }
