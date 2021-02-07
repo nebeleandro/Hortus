@@ -27,16 +27,16 @@ function tienenPlagas(){
 
 
 
-   var nroPlantas = parseInt( prompt ("Cuantas plantas tenés?"));
+  /* var nroPlantas = parseInt( prompt ("Cuantas plantas tenés?"));
     
     if (nroPlantas > 0){
-        var plagas = tienenPlagas();
+        var tienen = tienenPlagas();
    
     }
     else{
         console.log("Deberías empezar a tener plantas en tu casa!")
     }
-
+*/
 
 /*function Plaga (nombre, causas, efectos, solucionesOrganicas, solucionesQuimicas, dosificacionOrganica, dosificacionQuimica){
     this.nombre = nombre;
@@ -93,7 +93,7 @@ console.log(hormiga[especificacion]);
 especificacion = prompt ("Que información necesitas sobre la hormiga?");
 console.log (hormiga[especificacion.toLowerCase()]); 
 }*/
-function Viaje(nombre, cantPlantas, plaga){
+function Info(nombre, cantPlantas, plaga){
     this.nombre=nombre;
     this.cantPlantas=cantPlantas;
     this.plaga=plaga;
@@ -106,15 +106,21 @@ function Plaga(nombre, causas, efectos, solucionesOrganicas, dosificacionOrganic
     this.solucionOrganica = solucionesOrganicas;
     this.dosificacionOrganica = dosificacionOrganica;
  
+  //  this.dosificacionOrganica = function(){
+  //    return  parseInt(document.getElementById("inputPlaga").value) }
+
+    
 //function  tipoPlaga(Plaga){
  // return  Plaga = parseInt(document.getElementById("inputPlaga").value);
 
     
- // this.dosiXPlantas = function(){
- //     return (this.dosificacionOrganica / 30);
-  //  }
-//}
+  dosiXPlantas = function(dosificacionOrganica){
+      return parseInt(Plaga[dosificacionOrganica] / 30);
+    }
+
+    
 }
+
 
 
 //function plantaXlitro(dosificacionOrganica){
@@ -124,10 +130,10 @@ function Plaga(nombre, causas, efectos, solucionesOrganicas, dosificacionOrganic
 
 
 
-const enfermedades=[
+const plagas=[
     new Plaga("cochinilla", "Estres o planta debil", "La planta no puede seguir desarrollandose y muere", "Jabón Potasico y/o Aceite neem", 5),
-    new Plaga("pulgon", "Exceso de nitrogeno", "Se alimenta de la salvia de la planta y esta no se puede desarrollar", "Jabón Potasico y/o Aceite neem",5),
-    new Plaga("hormigas", "Hormiguero cerca", "Come las hojas de las plantas, dependiendo el tamaño de la planta puede generar que no logre hacer la fotosíntesis y morirá", "Tierra de diatomea, preparado de ají picante o arroz molido",5),
+    new Plaga("pulgon", "Exceso de nitrogeno", "Se alimenta de la salvia de la planta y esta no se puede desarrollar", "Jabón Potasico y/o Aceite neem", 5),
+    new Plaga("hormigas", "Hormiguero cerca", "Come las hojas de las plantas, dependiendo el tamaño de la planta puede generar que no logre hacer la fotosíntesis y morirá", "Tierra de diatomea, preparado de ají picante o arroz molido", 5),
     new Plaga("araña roja", "altas temperaturas", "Se alimenta de celulas de la planta a una velocidad voraz, debilitandola y por ultimo matandola", "Jabón Potásico y/o Aceite de neem", 5),
     
 ]
@@ -139,11 +145,11 @@ function calcularPrecio(event){
     // Pido los datos para el cálculo
 
     var cantPlantas= parseInt(document.getElementById("inputPlantas").value)
-   function tipo() { parseInt(document.getElementById("inputPlaga").value) }
+    var tipo = (document.getElementById("inputPlaga").value)
 
     // Este es el cálculo del precio
 
-    var cantidadSv = cantPlantas * tipo (this.dosificacionOrganica) + "L de preparado"
+    var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "L de preparado"
 
 
     // Acá pongo el costo en el elemento correspondiente
