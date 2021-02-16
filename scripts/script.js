@@ -136,7 +136,8 @@ function calcularPrecio(event){
     console.log(event);
 
     // Pido los datos para el cálculo
-
+    //var cantPlantas= $("#inputPlantas").each((elemento) => {console.log(elemento.value)});
+    //var cantPlantas= $("#inputPlaga").each((elemento) => {console.log(elemento.value)});
     var cantPlantas= parseInt(document.getElementById("inputPlantas").value)
     var tipo = (document.getElementById("inputPlaga").value)
 
@@ -149,8 +150,9 @@ function calcularPrecio(event){
     var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "ml de " + solucion(plagas[tipo])
     
   //  var preparado = parseInt(solucion(plagas[tipo]))
-    // Acá pongo el costo en el elemento correspondiente
+  
 
+    //var precio = $("#alert-calculo-precio");
     var precio = document.getElementById("alert-calculo-precio")
     precio.innerText = cantidadSv;
 
@@ -170,20 +172,20 @@ function dosiXPlantas(plaga){
   }
 
 
+$("#calcular").click(calcularPrecio);
 
-var buttonCalcular = document.getElementById("calcular");
+//var buttonCalcular = document.getElementById("calcular");
 
-buttonCalcular.addEventListener("click", calcularPrecio);
-
-
-
-var nombre = document.getElementById("inputName")
-var cantPlantas = document.getElementById("inputPlantas")
-var plaga = document.getElementById("inputPlagas")
+//buttonCalcular.addEventListener("click", calcularPrecio);
 
 
-nombre.addEventListener("blur", validarCampo);
-cantPlantas.addEventListener("blur", validarCampo);
+var cantPlantas = $("#inputPlantas")
+var plaga = $("#inputPlagas")
+//var cantPlantas = document.getElementById("inputPlantas")
+//var plaga = document.getElementById("inputPlagas")
+
+$("#inputPlantas").blur( validadCampo())
+//cantPlantas.addEventListener("blur", validarCampo);
 //plaga.addEventListener("blur", validarCampo);
 
 function validarCampo(event){
@@ -199,3 +201,4 @@ function validarCampo(event){
     }
 
 }
+
