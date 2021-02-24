@@ -872,7 +872,7 @@ h1.contenido__info__titulo {
        height: 90vh;
    
        grid-template-columns: repeat(5, 1fr);
-       grid-template-rows: repeat(2, 1fr);
+       grid-template-rows: repeat(2, 50vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
        justify-content: space-between;
@@ -891,7 +891,7 @@ h1.contenido__info__titulo {
        height: 90vh;
    
        grid-template-columns: repeat(2, 1fr);
-       grid-template-rows: repeat(3, 1fr);
+       grid-template-rows: repeat(3, 80vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
        justify-content: space-between;
@@ -911,7 +911,7 @@ h1.contenido__info__titulo {
        height: 90vh;
    
        grid-template-columns: repeat(2, 1fr);
-       grid-template-rows: repeat(6, 1fr);
+       grid-template-rows: repeat(6, 80vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
        justify-content: space-between;
@@ -949,32 +949,94 @@ h1.contenido__info__titulo {
        max-width: 100%;
        grid-area: profoot; 
    }
-   #fotoAromaticas{
-       cursor: pointer;
-   }
-   #infoClick{
+   
+   #infoClickArom{
        background-color: #424241;
        position: absolute;
         top: 25%;
         left: 8%;
         right: 8%;
-        align-items: center;
+        
         display: none;
        
        strong{color: #D8D8D8;}
        span{color: #D8D8D8;}
    }
+#infoClickHorta{
+    background-color: #424241;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    right: 8%;
+   
+     
+    display: none;
+    
+    strong{color: #D8D8D8;}
+    span{color: #D8D8D8;}
+}   
+#infoClickFrut{
+    background-color: #424241;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    right: 8%;
+   
+    display: none;
+    
+    
+    strong{color: #D8D8D8;}
+    span{color: #D8D8D8;}
+}
+#infoClickFlor{
+    background-color: #424241;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    right: 8%;
+   
+    display: none;
+    
+    
+    strong{color: #D8D8D8;}
+    span{color: #D8D8D8;}
+}
+#infoClickArb{
+    background-color: #424241;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    right: 8%;
+   
+    display: none;
+    
+    
+    strong{color: #D8D8D8;}
+    span{color: #D8D8D8;}
+}
+#infoClickSuc{
+    background-color: #424241;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    right: 8%;
+   
+    display: none; 
+    
+    
+    strong{color: #D8D8D8;}
+    span{color: #D8D8D8;}
+} 
     .aromaticas {
        max-height: 100%;
        max-width: 100%;
        grid-area: producto;
-   
-       
-   }
-   
+}
+ 
    
    
-    .diEspacio {
+   
+    .hortalizas {
        max-height: 100%;
        max-width: 100%;
        grid-area: espacio;
@@ -984,7 +1046,7 @@ h1.contenido__info__titulo {
    
    
    
-    .modelados {
+    .florales {
        max-height: 100%;
        max-width: 100%;
        grid-area: modelado;
@@ -994,7 +1056,7 @@ h1.contenido__info__titulo {
    
    
    
-    .graficas { 
+    .frutales { 
        
        max-height: 100%;
        max-width: 100%;
@@ -1004,7 +1066,7 @@ h1.contenido__info__titulo {
    
    
    
-    .personajes {
+    .arboles {
        max-height: 100%;
        max-width: 100%;
        grid-area: personaje;
@@ -1012,7 +1074,7 @@ h1.contenido__info__titulo {
        
    }
    
-    .animaciones {
+    .suculentas {
        grid-area: animacion;
        max-height: 100%;
        max-width: 100%;
@@ -1035,57 +1097,57 @@ h1.contenido__info__titulo {
      bottom: 8px;
      left: 16px;
     }
-   .diEspacio {
+   .hortalizas {
      position: relative;
      text-align: center;
      color: grey;
    }
-   .diEspacio p {
+   .hortalizas p {
    
      position: absolute;
      bottom: 8px;
      left: 16px;
    }
-   .modelados {
+   .florales {
      position: relative;
      text-align: center;
      color: grey;}
-   .modelados p {
+   .florales p {
    
      position: absolute;
      bottom: 8px;
      left: 16px;
    }
-   .graficas {
+   .frutales {
      position: relative;
      text-align: center;
      color: grey;
    }
 
-   .graficas p {
+   .frutales p {
    
      position: absolute;
      bottom: 8px;
      left: 16px;
    }
-   .personajes {
+   .arboles {
      position: relative;
      text-align: center;
      color: grey;}
    
-   .personajes p {
+   .arboles p {
    
      position: absolute;
      bottom: 8px;
      left: 16px;
    }
-   .animaciones {
+   .suculentas {
      position: relative;
      text-align: center;
      color: grey;
    }
    
-   .animaciones p {
+   .suculentas p {
    
      position: absolute;
      bottom: 8px;

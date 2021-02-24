@@ -201,14 +201,32 @@ function validarCampo(event){
     }
 
 }
-var info = $('#aromaticasClick');
+//var info = $('#aromaticasClick');
 
 //info.remove();
 
 
-$('#fotoAromaticas').click(function(){
-$('#infoClick').slideToggle()
-
+$('#fotoArom').hover(function(){
+$('#infoClickArom').slideToggle()
 })
 
+$('#fotoHorta').hover(function(){
+    $('#infoClickHorta').slideToggle()
+    })
 
+$('#fotoFlor').hover(function(){
+$('#infoClickFlor').slideToggle()
+})
+
+$('#fotoFrut').hover(function(){
+$('#infoClickFrut').slideToggle()
+})
+    
+$('#fotoArb').hover(function(){
+$('#infoClickArb').slideToggle()
+})
+    
+$('#fotoSuc').hover(function(){
+$('#infoClickSuc').slideToggle()
+})
+    

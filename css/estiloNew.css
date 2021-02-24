@@ -605,7 +605,7 @@ header {
       display: grid;
       height: 90vh;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 50vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
@@ -616,7 +616,7 @@ header {
       display: grid;
       height: 90vh;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 80vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
@@ -627,7 +627,7 @@ header {
       display: grid;
       height: 90vh;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 80vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
@@ -650,41 +650,93 @@ header {
     max-height: 100%;
     max-width: 100%;
     grid-area: profoot; }
-  .mainExterior #fotoAromaticas {
-    cursor: pointer; }
-  .mainExterior #infoClick {
+  .mainExterior #infoClickArom {
     background-color: #424241;
     position: absolute;
     top: 25%;
     left: 8%;
     right: 8%;
-    align-items: center;
     display: none; }
-    .mainExterior #infoClick strong {
+    .mainExterior #infoClickArom strong {
       color: #D8D8D8; }
-    .mainExterior #infoClick span {
+    .mainExterior #infoClickArom span {
+      color: #D8D8D8; }
+  .mainExterior #infoClickHorta {
+    background-color: #424241;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    right: 8%;
+    display: none; }
+    .mainExterior #infoClickHorta strong {
+      color: #D8D8D8; }
+    .mainExterior #infoClickHorta span {
+      color: #D8D8D8; }
+  .mainExterior #infoClickFrut {
+    background-color: #424241;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    right: 8%;
+    display: none; }
+    .mainExterior #infoClickFrut strong {
+      color: #D8D8D8; }
+    .mainExterior #infoClickFrut span {
+      color: #D8D8D8; }
+  .mainExterior #infoClickFlor {
+    background-color: #424241;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    right: 8%;
+    display: none; }
+    .mainExterior #infoClickFlor strong {
+      color: #D8D8D8; }
+    .mainExterior #infoClickFlor span {
+      color: #D8D8D8; }
+  .mainExterior #infoClickArb {
+    background-color: #424241;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    right: 8%;
+    display: none; }
+    .mainExterior #infoClickArb strong {
+      color: #D8D8D8; }
+    .mainExterior #infoClickArb span {
+      color: #D8D8D8; }
+  .mainExterior #infoClickSuc {
+    background-color: #424241;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    right: 8%;
+    display: none; }
+    .mainExterior #infoClickSuc strong {
+      color: #D8D8D8; }
+    .mainExterior #infoClickSuc span {
       color: #D8D8D8; }
   .mainExterior .aromaticas {
     max-height: 100%;
     max-width: 100%;
     grid-area: producto; }
-  .mainExterior .diEspacio {
+  .mainExterior .hortalizas {
     max-height: 100%;
     max-width: 100%;
     grid-area: espacio; }
-  .mainExterior .modelados {
+  .mainExterior .florales {
     max-height: 100%;
     max-width: 100%;
     grid-area: modelado; }
-  .mainExterior .graficas {
+  .mainExterior .frutales {
     max-height: 100%;
     max-width: 100%;
     grid-area: grafica; }
-  .mainExterior .personajes {
+  .mainExterior .arboles {
     max-height: 100%;
     max-width: 100%;
     grid-area: personaje; }
-  .mainExterior .animaciones {
+  .mainExterior .suculentas {
     grid-area: animacion;
     max-height: 100%;
     max-width: 100%; }
@@ -701,43 +753,43 @@ header {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainExterior .diEspacio {
+  .mainExterior .hortalizas {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainExterior .diEspacio p {
+  .mainExterior .hortalizas p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainExterior .modelados {
+  .mainExterior .florales {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainExterior .modelados p {
+  .mainExterior .florales p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainExterior .graficas {
+  .mainExterior .frutales {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainExterior .graficas p {
+  .mainExterior .frutales p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainExterior .personajes {
+  .mainExterior .arboles {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainExterior .personajes p {
+  .mainExterior .arboles p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainExterior .animaciones {
+  .mainExterior .suculentas {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainExterior .animaciones p {
+  .mainExterior .suculentas p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
