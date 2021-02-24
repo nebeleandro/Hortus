@@ -949,13 +949,17 @@ h1.contenido__info__titulo {
        max-width: 100%;
        grid-area: profoot; 
    }
-   #aromaticasClick{
+   #fotoAromaticas{
+       cursor: pointer;
+   }
+   #infoClick{
        background-color: #424241;
        position: absolute;
         top: 25%;
         left: 8%;
         right: 8%;
         align-items: center;
+        display: none;
        
        strong{color: #D8D8D8;}
        span{color: #D8D8D8;}

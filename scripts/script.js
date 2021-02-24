@@ -184,7 +184,7 @@ var plaga = $("#inputPlagas")
 //var cantPlantas = document.getElementById("inputPlantas")
 //var plaga = document.getElementById("inputPlagas")
 
-$("#inputPlantas").blur( validadCampo())
+$("#inputPlantas").blur(validarCampo)
 //cantPlantas.addEventListener("blur", validarCampo);
 //plaga.addEventListener("blur", validarCampo);
 
@@ -203,11 +203,12 @@ function validarCampo(event){
 }
 var info = $('#aromaticasClick');
 
-info.remove();
+//info.remove();
 
 
 $('#fotoAromaticas').click(function(){
-$('#aromaticasClick').slideToggle()
+$('#infoClick').slideToggle()
+
 })
 
 

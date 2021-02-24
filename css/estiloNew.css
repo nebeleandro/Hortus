@@ -650,16 +650,19 @@ header {
     max-height: 100%;
     max-width: 100%;
     grid-area: profoot; }
-  .mainExterior #aromaticasClick {
+  .mainExterior #fotoAromaticas {
+    cursor: pointer; }
+  .mainExterior #infoClick {
     background-color: #424241;
     position: absolute;
     top: 25%;
     left: 8%;
     right: 8%;
-    align-items: center; }
-    .mainExterior #aromaticasClick strong {
+    align-items: center;
+    display: none; }
+    .mainExterior #infoClick strong {
       color: #D8D8D8; }
-    .mainExterior #aromaticasClick span {
+    .mainExterior #infoClick span {
       color: #D8D8D8; }
   .mainExterior .aromaticas {
     max-height: 100%;
