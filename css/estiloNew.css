@@ -1,4 +1,4 @@
-.slogan, .contenido .slogan__index, .mainQuienes .slogan__quienes, .mainContacto .slogan__contacto, .mainServicios .slogan__servicios {
+.slogan, .contenido .slogan__index, .mainQuienes .slogan__quienes, .mainContacto .slogan__contacto, .mainExterior .slogan__exterior {
   font-weight: bolder;
   color: black;
   font-style: italic;
@@ -354,7 +354,7 @@ header {
     max-height: 100%;
     max-width: 100%;
     grid-area: profoot; }
-  .mainQuienes .diProducto {
+  .mainQuienes .aromaticas {
     max-height: 100%;
     max-width: 100%;
     grid-area: producto; }
@@ -383,11 +383,11 @@ header {
     height: 100%;
     display: block;
     object-fit: cover; }
-  .mainQuienes .diProducto {
+  .mainQuienes .aromaticas {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainQuienes .diProducto p {
+  .mainQuienes .aromaticas p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
@@ -539,14 +539,14 @@ header {
     font-weight: 300;
     font-style: normal; }
 
-.mainServicios {
+.mainExterior {
   background: #424241; }
-  .mainServicios p {
+  .mainExterior p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-style: normal;
     margin-bottom: 0; }
-  .mainServicios .Titulo {
+  .mainExterior .Titulo {
     color: #D8D8D8;
     font-weight: bold;
     font-size: 150%;
@@ -557,14 +557,14 @@ header {
     font-weight: 500;
     font-style: normal;
     padding: 50px; }
-  .mainServicios .portada {
+  .mainExterior .portada {
     background-image: url("../imagenes/portada3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: contain;
     height: 1000px; }
-  .mainServicios .slogan__servicios {
+  .mainExterior .slogan__exterior {
     /* transform: translate(0%, 700%);*/
     background-color: rgba(128, 128, 128, 0.7);
     background-size: cover;
@@ -579,12 +579,12 @@ header {
     padding-right: 1%;
     padding-left: 1%;
     color: white; }
-  .mainServicios h2 {
+  .mainExterior h2 {
     color: #EEEEEE;
     margin-bottom: 0%; }
-  .mainServicios .contenido__info {
+  .mainExterior .contenido__info {
     padding: 2%; }
-    .mainServicios .contenido__info h1.contenido__info__titulo {
+    .mainExterior .contenido__info h1.contenido__info__titulo {
       color: #EEEEEE;
       font-weight: bold;
       font-size: 150%;
@@ -594,14 +594,14 @@ header {
       font-weight: 500;
       font-style: normal;
       padding: 10px; }
-    .mainServicios .contenido__info .info__text {
+    .mainExterior .contenido__info .info__text {
       padding: 3%;
       background-color: #D8D8D8; }
-      .mainServicios .contenido__info .info__text .contenido__info__texto {
+      .mainExterior .contenido__info .info__text .contenido__info__texto {
         color: #424241;
         text-align: center; }
   @media only screen and (min-width: 1200px) {
-    .mainServicios .categorias {
+    .mainExterior .categorias {
       display: grid;
       height: 90vh;
       grid-template-columns: repeat(5, 1fr);
@@ -612,7 +612,7 @@ header {
       align-content: space-between;
       grid-template-areas: "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
   @media only screen and (max-width: 1200px) {
-    .mainServicios .categorias {
+    .mainExterior .categorias {
       display: grid;
       height: 90vh;
       grid-template-columns: repeat(2, 1fr);
@@ -623,7 +623,7 @@ header {
       align-content: space-between;
       grid-template-areas: "producto espacio" "grafica personaje" "modelado animacion"; } }
   @media only screen and (max-width: 600px) {
-    .mainServicios .categorias {
+    .mainExterior .categorias {
       display: grid;
       height: 90vh;
       grid-template-columns: repeat(2, 1fr);
@@ -633,7 +633,7 @@ header {
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
-  .mainServicios .categorias .info, .mainServicios .categorias .mainProyectos .info__producto, .mainProyectos .mainServicios .categorias .info__producto, .mainServicios .categorias .mainProyectos .info__espacio, .mainProyectos .mainServicios .categorias .info__espacio, .mainServicios .categorias .mainProyectos .info__animacion, .mainProyectos .mainServicios .categorias .info__animacion, .mainServicios .categorias .mainProyectos .info__personaje, .mainProyectos .mainServicios .categorias .info__personaje, .mainServicios .categorias .mainProyectos .info__presentacion, .mainProyectos .mainServicios .categorias .info__presentacion, .mainServicios .categorias .mainProyectos .info__modelado, .mainProyectos .mainServicios .categorias .info__modelado {
+  .mainExterior .categorias .info, .mainExterior .categorias .mainProyectos .info__producto, .mainProyectos .mainExterior .categorias .info__producto, .mainExterior .categorias .mainProyectos .info__espacio, .mainProyectos .mainExterior .categorias .info__espacio, .mainExterior .categorias .mainProyectos .info__animacion, .mainProyectos .mainExterior .categorias .info__animacion, .mainExterior .categorias .mainProyectos .info__personaje, .mainProyectos .mainExterior .categorias .info__personaje, .mainExterior .categorias .mainProyectos .info__presentacion, .mainProyectos .mainExterior .categorias .info__presentacion, .mainExterior .categorias .mainProyectos .info__modelado, .mainProyectos .mainExterior .categorias .info__modelado {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     font-size: 100%;
@@ -644,93 +644,104 @@ header {
     padding-left: 1%;
     color: white;
     border-radius: 5%; }
-  .mainServicios .titProyecto {
+  .mainExterior .titProyecto {
     grid-area: titulo; }
-  .mainServicios .footer__proyectos {
+  .mainExterior .footer__proyectos {
     max-height: 100%;
     max-width: 100%;
     grid-area: profoot; }
-  .mainServicios .diProducto {
+  .mainExterior #aromaticasClick {
+    background-color: #424241;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    right: 8%;
+    align-items: center; }
+    .mainExterior #aromaticasClick strong {
+      color: #D8D8D8; }
+    .mainExterior #aromaticasClick span {
+      color: #D8D8D8; }
+  .mainExterior .aromaticas {
     max-height: 100%;
     max-width: 100%;
     grid-area: producto; }
-  .mainServicios .diEspacio {
+  .mainExterior .diEspacio {
     max-height: 100%;
     max-width: 100%;
     grid-area: espacio; }
-  .mainServicios .modelados {
+  .mainExterior .modelados {
     max-height: 100%;
     max-width: 100%;
     grid-area: modelado; }
-  .mainServicios .graficas {
+  .mainExterior .graficas {
     max-height: 100%;
     max-width: 100%;
     grid-area: grafica; }
-  .mainServicios .personajes {
+  .mainExterior .personajes {
     max-height: 100%;
     max-width: 100%;
     grid-area: personaje; }
-  .mainServicios .animaciones {
+  .mainExterior .animaciones {
     grid-area: animacion;
     max-height: 100%;
     max-width: 100%; }
-  .mainServicios .imgGrilla {
+  .mainExterior .imgGrilla {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover; }
-  .mainServicios .diProducto {
+  .mainExterior .aromaticas {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainServicios .diProducto p {
+  .mainExterior .aromaticas p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainServicios .diEspacio {
+  .mainExterior .diEspacio {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainServicios .diEspacio p {
+  .mainExterior .diEspacio p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainServicios .modelados {
+  .mainExterior .modelados {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainServicios .modelados p {
+  .mainExterior .modelados p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainServicios .graficas {
+  .mainExterior .graficas {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainServicios .graficas p {
+  .mainExterior .graficas p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainServicios .personajes {
+  .mainExterior .personajes {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainServicios .personajes p {
+  .mainExterior .personajes p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainServicios .animaciones {
+  .mainExterior .animaciones {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainServicios .animaciones p {
+  .mainExterior .animaciones p {
     position: absolute;
     bottom: 8px;
     left: 16px; }
-  .mainServicios .categorias article {
+  .mainExterior .categorias article {
     filter: saturate(5%);
     font-size: 30px; }
-  .mainServicios .categorias article:hover {
+  .mainExterior .categorias article:hover {
     filter: saturate(100%); }
 
 .mainProyectos {
@@ -808,7 +819,7 @@ header {
     border-radius: 5%; }
   .mainProyectos .titProyecto {
     grid-area: titulo; }
-  .mainProyectos .diProducto {
+  .mainProyectos .aromaticas {
     max-height: 100%;
     max-width: 100%;
     grid-area: producto; }
@@ -837,11 +848,11 @@ header {
     height: 100%;
     display: block;
     object-fit: cover; }
-  .mainProyectos .diProducto {
+  .mainProyectos .aromaticas {
     position: relative;
     text-align: center;
     color: grey; }
-  .mainProyectos .diProducto p {
+  .mainProyectos .aromaticas p {
     position: absolute;
     bottom: 8px;
     left: 16px; }

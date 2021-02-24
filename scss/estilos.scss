@@ -483,7 +483,7 @@ header {
         grid-area: profoot; 
     }
     
-     .diProducto {
+     .aromaticas {
         max-height: 100%;
         max-width: 100%;
         grid-area: producto;
@@ -544,11 +544,11 @@ header {
         object-fit: cover;
     
     }
-    .diProducto {
+    .aromaticas {
       position: relative;
       text-align: center;
       color: grey;}
-    .diProducto p {
+    .aromaticas p {
     
       position: absolute;
       bottom: 8px;
@@ -779,7 +779,7 @@ header {
     }
     
 }
-.mainServicios {
+.mainExterior {
 
 
     background: #424241;
@@ -814,7 +814,7 @@ header {
 
     }
 
-    .slogan__servicios{
+    .slogan__exterior{
         @extend .slogan;
        /* transform: translate(0%, 700%);*/
         background-color: rgba($color: grey, $alpha: .7);
@@ -949,8 +949,18 @@ h1.contenido__info__titulo {
        max-width: 100%;
        grid-area: profoot; 
    }
-   
-    .diProducto {
+   #aromaticasClick{
+       background-color: #424241;
+       position: absolute;
+        top: 25%;
+        left: 8%;
+        right: 8%;
+        align-items: center;
+       
+       strong{color: #D8D8D8;}
+       span{color: #D8D8D8;}
+   }
+    .aromaticas {
        max-height: 100%;
        max-width: 100%;
        grid-area: producto;
@@ -1011,11 +1021,11 @@ h1.contenido__info__titulo {
        object-fit: cover;
    
    }
-   .diProducto {
+   .aromaticas {
      position: relative;
      text-align: center;
      color: grey;}
-   .diProducto p {
+   .aromaticas p {
    
      position: absolute;
      bottom: 8px;
@@ -1250,7 +1260,7 @@ h1.contenido__info__titulo {
     }
   
     
-     .diProducto {
+     .aromaticas {
         max-height: 100%;
         max-width: 100%;
         grid-area: producto;
@@ -1311,11 +1321,11 @@ h1.contenido__info__titulo {
         object-fit: cover;
     
     }
-    .diProducto {
+    .aromaticas {
       position: relative;
       text-align: center;
       color: grey;}
-    .diProducto p {
+    .aromaticas p {
     
       position: absolute;
       bottom: 8px;

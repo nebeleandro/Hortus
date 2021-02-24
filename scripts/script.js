@@ -201,4 +201,13 @@ function validarCampo(event){
     }
 
 }
+var info = $('#aromaticasClick');
+
+info.remove();
+
+
+$('#fotoAromaticas').click(function(){
+$('#aromaticasClick').slideToggle()
+})
+
 
