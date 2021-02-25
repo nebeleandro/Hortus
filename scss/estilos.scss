@@ -305,7 +305,7 @@ header {
     width: $width;    
 }
 
-.mainQuienes {
+.mainInterior {
 
     background: #424241;
    
@@ -402,7 +402,7 @@ header {
         height: 80vh;
     
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50vh);
        /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
         justify-content: space-between;
@@ -421,7 +421,7 @@ header {
         height: 70vh;
     
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 80vh);
        /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
         justify-content: space-between;
@@ -443,7 +443,7 @@ header {
         height: 70vh;
     
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 80vh);
        /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
         justify-content: space-between;
@@ -482,8 +482,84 @@ header {
         max-width: 100%;
         grid-area: profoot; 
     }
+    #infoClickAma{
+        background-color: rgba($color:  #424241, $alpha: .7);
+        position: absolute;
+         top: 25%;
+         left: 8%;
+         right: 8%;
+         line-height: 1.2;
+         display: none;
+        
+        strong{color: #D8D8D8;}
+        span{color: #D8D8D8;}
+    }
+ #infoClickMont{
+    background-color: rgba($color:  #424241, $alpha: .7);
+     position: absolute;
+     top: 10%;
+     left: 8%;
+     right: 8%;
     
-     .aromaticas {
+     line-height: 1.2; 
+     display: none;
+     
+     strong{color: #D8D8D8;}
+     span{color: #D8D8D8;}
+ }   
+ #infoClickPot{
+    background-color: rgba($color:  #424241, $alpha: .7);
+     position: absolute;
+     top: 2%;
+     left: 8%;
+     right: 8%;
+    
+     display: none;
+     line-height: 1.1;
+     
+     strong{color: #D8D8D8;}
+     span{color: #D8D8D8;}
+ }
+ #infoClickSans{
+    background-color: rgba($color:  #424241, $alpha: .7);
+     position: absolute;
+     top: 10%;
+     left: 8%;
+     right: 8%;
+     line-height: 1.2;
+     display: none;
+     
+     
+     strong{color: #D8D8D8;}
+     span{color: #D8D8D8;}
+ }
+ #infoClickCrot{
+    background-color: rgba($color:  #424241, $alpha: .7);
+     position: absolute;
+     top: 15%;
+     left: 8%;
+     right: 8%;
+     line-height: 1.2;
+     display: none;
+     
+     
+     strong{color: #D8D8D8;}
+     span{color: #D8D8D8;}
+ }
+ #infoClickCala{
+    background-color: rgba($color:  #424241, $alpha: .7);
+     position: absolute;
+     top: 5%;
+     left: 8%;
+     right: 8%;
+     line-height: 1.2;
+     display: none; 
+     
+     
+     strong{color: #D8D8D8;}
+     span{color: #D8D8D8;}
+ } 
+     .amarilis {
         max-height: 100%;
         max-width: 100%;
         grid-area: producto;
@@ -493,7 +569,7 @@ header {
     
     
     
-     .diEspacio {
+     .montsera {
         max-height: 100%;
         max-width: 100%;
         grid-area: espacio;
@@ -503,7 +579,7 @@ header {
     
     
     
-     .modelados {
+     .potus {
         max-height: 100%;
         max-width: 100%;
         grid-area: modelado;
@@ -513,7 +589,7 @@ header {
     
     
     
-     .graficas { 
+     .sanseveria { 
         
         max-height: 100%;
         max-width: 100%;
@@ -523,7 +599,7 @@ header {
     
     
     
-     .personajes {
+     .croton {
         max-height: 100%;
         max-width: 100%;
         grid-area: personaje;
@@ -531,7 +607,7 @@ header {
         
     }
     
-     .animaciones {
+     .cala {
         grid-area: animacion;
         max-height: 100%;
         max-width: 100%;
@@ -544,67 +620,67 @@ header {
         object-fit: cover;
     
     }
-    .aromaticas {
+    .amarilis {
       position: relative;
       text-align: center;
       color: grey;}
-    .aromaticas p {
+    .amarilis p {
     
       position: absolute;
       bottom: 8px;
       left: 16px;
      }
-    .diEspacio {
+    .montsera {
       position: relative;
       text-align: center;
       color: grey;
     }
-    .diEspacio p {
+    .montsera p {
     
       position: absolute;
       bottom: 8px;
       left: 16px;
     }
-    .modelados {
+    .potus {
       position: relative;
       text-align: center;
       color: grey;}
-    .modelados p {
+    .potus p {
     
       position: absolute;
       bottom: 8px;
       left: 16px;
     }
-    .graficas {
+    .sanseveria {
       position: relative;
       text-align: center;
       color: grey;
     }
 
-    .graficas p {
+    .sanseveria p {
     
       position: absolute;
       bottom: 8px;
       left: 16px;
     }
-    .personajes {
+    .croton {
       position: relative;
       text-align: center;
       color: grey;}
     
-    .personajes p {
+    .croton p {
     
       position: absolute;
       bottom: 8px;
       left: 16px;
     }
-    .animaciones {
+    .cala {
       position: relative;
       text-align: center;
       color: grey;
     }
     
-    .animaciones p {
+    .cala p {
     
       position: absolute;
       bottom: 8px;
@@ -951,78 +1027,73 @@ h1.contenido__info__titulo {
    }
    
    #infoClickArom{
-       background-color: #424241;
+    background-color: rgba($color:  #424241, $alpha: .7);
        position: absolute;
         top: 25%;
         left: 8%;
         right: 8%;
-        
+        line-height: 1.2;
         display: none;
        
        strong{color: #D8D8D8;}
        span{color: #D8D8D8;}
    }
 #infoClickHorta{
-    background-color: #424241;
+    background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
     top: 10%;
     left: 8%;
     right: 8%;
-   
-     
+    line-height: 1.2;     
     display: none;
     
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}
 }   
 #infoClickFrut{
-    background-color: #424241;
+    background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
     top: 25%;
     left: 8%;
     right: 8%;
-   
+    line-height: 1.2;
     display: none;
-    
-    
+        
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}
 }
 #infoClickFlor{
-    background-color: #424241;
+    background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
     top: 10%;
     left: 8%;
     right: 8%;
-   
+    line-height: 1.2;
     display: none;
-    
-    
+        
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}
 }
 #infoClickArb{
-    background-color: #424241;
+    background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
     top: 3%;
     left: 8%;
     right: 8%;
-   
-    display: none;
-    
+    line-height: 1.2;
+    display: none;    
     
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}
 }
 #infoClickSuc{
-    background-color: #424241;
+    background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
     top: 10%;
     left: 8%;
     right: 8%;
-   
-    display: none; 
-    
+    line-height: 1.2;
+    display: none;     
     
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}

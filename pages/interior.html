@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<link rel="shortcut icon" href="../imagenes/logo.png" />
 	<link rel="stylesheet" href="../css/estilo.css" />
 	<link rel="stylesheet" href="../css/estiloNew.css" />
@@ -57,7 +58,7 @@
 
 		</header>
 	
-		<main class="mainQuienes">
+		<main class="mainInterior">
 			
 			<section class="contenido__portada portada">
 				<p class="slogan__quienes"><em>Trae la selva al interior de tu hogar.</em></p>
@@ -82,39 +83,69 @@
 				
 					
 			
-					<article class="aromaticas">	
-						<img class="imgGrilla"src="../imagenes/amarilis.jpg" 
-						alt="Opciones de triciclos diseñados por Nundos.">
-						<p class="info">Amarilis</p>
+					<article class="amarilis">	
+						<i>
+							<img id="FotoAma" class="imgGrilla"src="../imagenes/amarilis.jpg" 
+							alt="Opciones de triciclos diseñados por Nundos.">
+							<p class="info">Amarilis</p>
+						</i>
+						<span id="infoClickAma">
+							<span>Tiene flores enormes y hermosas, necesita buena luminusidad (sin sol directo), bastante humedar y temeraturas que ronden los 21°.</span>
+						</span>
 					</article>
 
-					<article class="diEspacio">
-						<img class="imgGrilla" src="../imagenes/montsera.jpg" 
-						alt="Imagen de un estar."/>
-						<p class="info">Montsera</p>
+					<article class="montsera">
+						<i>
+							<img id="FotoMont" class="imgGrilla" src="../imagenes/montsera.jpg" 
+							alt="Imagen de un estar."/>
+							<p class="info">Montsera</p>
+						</i>
+						<span id="infoClickMont">
+							<span>Muy fácil de cuidar, puede estar en interior o exterior sin sol directo, le gusta mucho la humedad y un sustrato suelto. <strong>Tóxica si se come (cuiden a sus mascotas).</strong></span>
+						</span>
 					</article>
 
-					<article class="modelados">
-						<img class="imgGrilla" src="../imagenes/potus.jpg" 
-						alt="imagane de modelado para OnGuard"/>	
-						<p class="info">Potus</p>
+					<article class="potus">
+						<i>	
+							<img id="FotoPot" class="imgGrilla" src="../imagenes/potus.jpg" 
+							alt="imagane de modelado para OnGuard"/>	
+							<p class="info">Potus</p>
+						</i>
+						<span id="infoClickPot">
+							<span>De las plantas más faciles, aguanta espacios con poca luz (crecen mejor con sol indirecto), por ende las podes poner en cualquier parte de la casa.</span>
+						</span>
 					</article>
 
-					<article class="graficas">
-						<img class="imgGrilla" src="../imagenes/sansevieria.jpg" 
-						alt="Grafica para el museo de arte moderno."/>
-						<p class="info">Sansevieria</p>
+					<article class="sanseveria">
+						<i>	
+							<img id="FotoSans" class="imgGrilla" src="../imagenes/sansevieria.jpg" 
+							alt="Grafica para el museo de arte moderno."/>
+							<p class="info">Sansevieria</p>
+						</i>	
+						<span id="infoClickSans">
+							<span>Aguanta ambientes con poca luz y es una de las plantas que más limpia el aire.<strong>Tóxica si se come (cuiden a sus mascotas).</strong></span>
+						</span>
 					</article>	
 
-					<article class="personajes">
-						<img class="imgGrilla" src="../imagenes/croton petra.jpg"
-						alt="Foto de personaje modelado"/>
-						<p class="info">Crotón</p>
+					<article class="croton">
+						<i>
+							<img id="FotoCrot" class="imgGrilla" src="../imagenes/croton petra.jpg"
+							alt="Foto de personaje modelado"/>
+							<p class="info">Crotón</p>
+						</i>
+						<span id="infoClickCrot">
+							<span>Lugares muy luminosos para que crezcan fuerte y temperaturas entre 15° y 27°.</span>
+						</span>
 					</article>
 
-					<article class="animaciones">
-						<img class="imgGrilla" 	src="../imagenes/cala.jpg"  alt="Imagen de animacion de producto"/>
-						<p class="info">Cala</p>
+					<article class="cala">
+						<i>	
+							<img id="FotoCala" class="imgGrilla" 	src="../imagenes/cala.jpg"  alt="Imagen de animacion de producto"/>
+							<p class="info">Cala</p>
+						</i>
+						<span id="infoClickCala">
+							<span>Da una flor hermosa en primavera/verano, le gusta mucho la luz pero sin sol directo. Para que tenga una grán floracion recomendamos abonar.</span>
+						</span>
 					</article>
 
 							
@@ -133,5 +164,6 @@
 		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>	
+		<script defer src="../scripts/script.js"></script>
 	</body>
 </html>

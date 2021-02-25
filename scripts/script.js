@@ -229,4 +229,27 @@ $('#infoClickArb').slideToggle()
 $('#fotoSuc').hover(function(){
 $('#infoClickSuc').slideToggle()
 })
+$('#FotoAma').hover(function(){
+$('#infoClickAma').slideToggle()
+})
+    
+$('#FotoMont').hover(function(){
+$('#infoClickMont').slideToggle()
+})
+    
+$('#FotoPot').hover(function(){
+$('#infoClickPot').slideToggle()
+})
+    
+$('#FotoSans').hover(function(){
+$('#infoClickSans').slideToggle()
+})
+        
+$('#FotoCrot').hover(function(){
+$('#infoClickCrot').slideToggle()
+})
+        
+$('#FotoCala').hover(function(){
+$('#infoClickCala').slideToggle()
+})
     
