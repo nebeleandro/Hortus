@@ -147,8 +147,7 @@ function calcularPrecio(event){
     console.log(dosiXPlantas(plagas[tipo]))
     // Este es el cálculo del precio
 
-    var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "ml de " + solucion(plagas[tipo])
-    
+    var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "ml de " + solucion(plagas[tipo]) + ". Las causas son: " + causa(plagas[tipo])
   //  var preparado = parseInt(solucion(plagas[tipo]))
   
 
@@ -169,6 +168,10 @@ function dosiXPlantas(plaga){
 
   function solucion(plaga){
       return plaga.solucionOrganica
+  }
+
+  function causa(plaga){
+      return plaga.causas;
   }
 
 
