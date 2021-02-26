@@ -1,0 +1,6 @@
+[
+{"nombre": "cochinilla", "causas": "Estres o planta debil", "efectos": "La planta no puede seguir desarrollandose y muere", "solucionOrganica": "Jabón Potasico y/o Aceite neem (5ml/l)", "dosificacionOrganica": 5},
+{"nombre": "pulgon", "causas": "Exceso de nitrogeno", "efectos": "Se alimenta de la salvia de la planta y esta no se puede desarrollar", "solucionOrganica": "Jabón Potasico y/o Aceite neem (5ml/l)", "dosificacionOrganica": 5},
+{"nombre": "hormigas", "causas": "Hormiguero cerca", "efectos": "Come las hojas de las plantas, dependiendo el tamaño de la planta puede generar que no logre hacer la fotosíntesis y morirá", "solucionOrganica": "Preparado de ají picante (5ml/l)", "dosificacionOrganica": 5},
+{"nombre": "araña roja", "causas": "altas temperaturas", "efectos": "Se alimenta de celulas de la planta a una velocidad voraz, debilitandola y por ultimo matandola", "solucionOrganica": "Jabón Potásico y/o Aceite de neem (5ml/l)", "dosificacionOrganica": 5}
+]   

@@ -98,13 +98,13 @@ function Info(cantPlantas, plaga){
     this.plaga=plaga;
 }
 
-function Plaga(nombre, causas, efectos, solucionOrganica, dosificacionOrganica){
+/*function Plaga(nombre, causas, efectos, solucionOrganica, dosificacionOrganica){
     this.nombre = nombre;
     this.causas = causas;
     this.efectos = efectos;
     this.solucionOrganica = solucionOrganica;
     this.dosificacionOrganica = dosificacionOrganica;
- 
+ }*/
   //  this.dosificacionOrganica = function(){
   //    return  parseInt(document.getElementById("inputPlaga").value) }
 
@@ -112,7 +112,7 @@ function Plaga(nombre, causas, efectos, solucionOrganica, dosificacionOrganica){
 //function  tipoPlaga(Plaga){
  // return  Plaga = parseInt(document.getElementById("inputPlaga").value);
     
-}
+
 
 
 
@@ -120,16 +120,22 @@ function Plaga(nombre, causas, efectos, solucionOrganica, dosificacionOrganica){
 // return (dosificacionOrganica / 30);
 //}
 
+let plagas = []
+
+fetch('../scripts/const.json').then((res) => {
+    res.json().then((data) =>{
+        plagas = data
+        console.log(plagas)
+        })})
 
 
-
-const plagas=[
+/*const plagas=[
     new Plaga("cochinilla", "Estres o planta debil", "La planta no puede seguir desarrollandose y muere", "Jabón Potasico y/o Aceite neem (5ml/l)", 5),
     new Plaga("pulgon", "Exceso de nitrogeno", "Se alimenta de la salvia de la planta y esta no se puede desarrollar", "Jabón Potasico y/o Aceite neem (5ml/l)", 5),
     new Plaga("hormigas", "Hormiguero cerca", "Come las hojas de las plantas, dependiendo el tamaño de la planta puede generar que no logre hacer la fotosíntesis y morirá", "Preparado de ají picante (5ml/l)", 5),
     new Plaga("araña roja", "altas temperaturas", "Se alimenta de celulas de la planta a una velocidad voraz, debilitandola y por ultimo matandola", "Jabón Potásico y/o Aceite de neem (5ml/l)", 5),
     
-]
+]*/
 
 function calcularPrecio(event){
 
@@ -147,7 +153,7 @@ function calcularPrecio(event){
     console.log(dosiXPlantas(plagas[tipo]))
     // Este es el cálculo del precio
 
-    var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "ml de " + solucion(plagas[tipo]) + ". Las causas son: " + causa(plagas[tipo])
+    var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "l de preparado de agua más " + solucion(plagas[tipo]) + ". Las causas son: " + causa(plagas[tipo])
   //  var preparado = parseInt(solucion(plagas[tipo]))
   
 
@@ -163,7 +169,7 @@ function calcularPrecio(event){
 }
 
 function dosiXPlantas(plaga){
-    return plaga.dosificacionOrganica / 30;
+    return plaga.dosificacionOrganica / 150 ;
   }
 
   function solucion(plaga){
