@@ -1,4 +1,4 @@
-.slogan, .contenido .slogan__index, .mainInterior .slogan__quienes, .mainContacto .slogan__contacto, .mainExterior .slogan__exterior {
+.slogan, .contenido .slogan__index, .mainInterior .slogan__quienes, .mainSoluciones .slogan__soluciones, .mainExterior .slogan__exterior {
   font-weight: bolder;
   color: black;
   font-style: italic;
@@ -309,35 +309,35 @@ header {
       display: grid;
       height: 80vh;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(2, 50vh);
+      grid-template-rows: repeat(2, 40vh);
       /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
+      grid-template-areas: "amarilis amarilis montsera montsera croton" "amarilis amarilis sanseveria cala potus"; } }
   @media only screen and (max-width: 1200px) {
     .mainInterior .categorias {
       display: grid;
-      height: 70vh;
+      height: 180vh;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(5, 80vh);
+      grid-template-rows: repeat(3, 60vh);
       /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
+      grid-template-areas: "amarilis montsera" "sanseveria croton" "potus cala"; } }
   @media only screen and (max-width: 600px) {
     .mainInterior .categorias {
       display: grid;
-      height: 70vh;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(7, 80vh);
+      height: 360vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 60vh);
       /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
-  .mainInterior .categorias .info, .mainInterior .categorias .mainProyectos .info__producto, .mainProyectos .mainInterior .categorias .info__producto, .mainInterior .categorias .mainProyectos .info__espacio, .mainProyectos .mainInterior .categorias .info__espacio, .mainInterior .categorias .mainProyectos .info__animacion, .mainProyectos .mainInterior .categorias .info__animacion, .mainInterior .categorias .mainProyectos .info__personaje, .mainProyectos .mainInterior .categorias .info__personaje, .mainInterior .categorias .mainProyectos .info__presentacion, .mainProyectos .mainInterior .categorias .info__presentacion, .mainInterior .categorias .mainProyectos .info__modelado, .mainProyectos .mainInterior .categorias .info__modelado {
+      grid-template-areas: "amarilis" "montsera" "potus" "croton" "sanseveria" "cala"; } }
+  .mainInterior .categorias .info, .mainInterior .categorias .mainPlagas .info__producto, .mainPlagas .mainInterior .categorias .info__producto, .mainInterior .categorias .mainPlagas .info__espacio, .mainPlagas .mainInterior .categorias .info__espacio, .mainInterior .categorias .mainPlagas .info__animacion, .mainPlagas .mainInterior .categorias .info__animacion, .mainInterior .categorias .mainPlagas .info__personaje, .mainPlagas .mainInterior .categorias .info__personaje, .mainInterior .categorias .mainPlagas .info__presentacion, .mainPlagas .mainInterior .categorias .info__presentacion, .mainInterior .categorias .mainPlagas .info__modelado, .mainPlagas .mainInterior .categorias .info__modelado {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     font-size: 100%;
@@ -348,12 +348,6 @@ header {
     padding-left: 1%;
     color: white;
     border-radius: 5%; }
-  .mainInterior .titProyecto {
-    grid-area: titulo; }
-  .mainInterior .footer__proyectos {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: profoot; }
   .mainInterior #infoClickAma {
     background-color: rgba(66, 66, 65, 0.7);
     position: absolute;
@@ -429,25 +423,25 @@ header {
   .mainInterior .amarilis {
     max-height: 100%;
     max-width: 100%;
-    grid-area: producto; }
+    grid-area: amarilis; }
   .mainInterior .montsera {
     max-height: 100%;
     max-width: 100%;
-    grid-area: espacio; }
+    grid-area: montsera; }
   .mainInterior .potus {
     max-height: 100%;
     max-width: 100%;
-    grid-area: modelado; }
+    grid-area: potus; }
   .mainInterior .sanseveria {
     max-height: 100%;
     max-width: 100%;
-    grid-area: grafica; }
+    grid-area: sanseveria; }
   .mainInterior .croton {
     max-height: 100%;
     max-width: 100%;
-    grid-area: personaje; }
+    grid-area: croton; }
   .mainInterior .cala {
-    grid-area: animacion;
+    grid-area: cala;
     max-height: 100%;
     max-width: 100%; }
   .mainInterior .imgGrilla {
@@ -509,14 +503,14 @@ header {
   .mainInterior .categorias article:hover {
     filter: saturate(100%); }
 
-.mainContacto {
+.mainSoluciones {
   background: #424241; }
-  .mainContacto p {
+  .mainSoluciones p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-style: normal;
     margin-bottom: 0; }
-  .mainContacto .Titulo {
+  .mainSoluciones .Titulo {
     color: #D8D8D8;
     font-weight: bold;
     font-size: 150%;
@@ -527,14 +521,14 @@ header {
     font-weight: 500;
     font-style: normal;
     padding: 50px; }
-  .mainContacto .portadaSoluciones {
+  .mainSoluciones .portadaSoluciones {
     background-image: url("../imagenes/portadaSoluciones.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: contain;
     height: 1000px; }
-  .mainContacto .slogan__contacto {
+  .mainSoluciones .slogan__soluciones {
     /* transform: translate(-0%, 450%);*/
     font-size: 250%;
     background-color: rgba(128, 128, 128, 0.7);
@@ -549,7 +543,7 @@ header {
     padding-right: 1%;
     padding-left: 1%;
     height: auto; }
-  .mainContacto h1 {
+  .mainSoluciones h1 {
     color: #EEEEEE;
     font-weight: bold;
     font-size: 150%;
@@ -560,56 +554,17 @@ header {
     font-weight: 500;
     font-style: normal;
     padding: 10px; }
-  .mainContacto .formSoluciones {
+  .mainSoluciones .formSoluciones {
     padding-top: 4%; }
-    .mainContacto .formSoluciones label {
+    .mainSoluciones .formSoluciones label {
       color: #EEEEEE;
       font-family: 'Montserrat', sans-serif; }
-  .mainContacto #gridContacto #formContact {
-    height: 100%;
-    width: 80%; }
-  .mainContacto #gridContacto #map {
-    height: 80%;
-    width: 80%; }
-  .mainContacto #gridContacto .text_form {
-    width: 100%; }
-  .mainContacto .contacto h1 {
+  .mainSoluciones h1 {
     padding: 10px; }
-  .mainContacto #gridContacto {
-    display: grid;
-    width: 100%;
-    grid-template-rows: 1fr 5fr;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    grid-template-areas: "titulo titulo" "form map";
-    background-color: white;
-    padding: 2%; }
-  .mainContacto #contactoTitulo {
-    grid-area: titulo;
-    color: black;
-    text-align: center; }
-  .mainContacto #map {
-    grid-area: map;
-    padding: 10px;
-    width: 40%;
-    margin: 5%; }
-  .mainContacto #formContact {
-    grid-area: form;
-    color: black;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin: 2%;
-    border: solid 5px #D8D8D8;
-    padding: 1%;
-    width: 40%; }
-    .mainContacto #formContact textarea {
-      width: 95%; }
-  .mainContacto .robot {
-    color: red;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    font-style: normal; }
+  .mainSoluciones #alert-calculo {
+    background-color: #EEEEEE;
+    border: solid 25px #424242;
+    color: #424241; }
 
 .mainExterior {
   background: #424241; }
@@ -675,37 +630,37 @@ header {
   @media only screen and (min-width: 1200px) {
     .mainExterior .categorias {
       display: grid;
-      height: 90vh;
+      height: 80vh;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(2, 50vh);
+      grid-template-rows: repeat(2, 40vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
+      grid-template-areas: "aromaticas aromaticas hortalizas hortalizas arboles" "aromaticas aromaticas frutales suculentas florales"; } }
   @media only screen and (max-width: 1200px) {
     .mainExterior .categorias {
       display: grid;
-      height: 90vh;
+      height: 180vh;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 80vh);
+      grid-template-rows: repeat(3, 60vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "producto espacio" "grafica personaje" "modelado animacion"; } }
+      grid-template-areas: "aromaticas hortalizas" "frutales arboles" "florales suculentas"; } }
   @media only screen and (max-width: 600px) {
     .mainExterior .categorias {
       display: grid;
-      height: 90vh;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(6, 80vh);
+      height: 360vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 60vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
-      grid-template-areas: "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
-  .mainExterior .categorias .info, .mainExterior .categorias .mainProyectos .info__producto, .mainProyectos .mainExterior .categorias .info__producto, .mainExterior .categorias .mainProyectos .info__espacio, .mainProyectos .mainExterior .categorias .info__espacio, .mainExterior .categorias .mainProyectos .info__animacion, .mainProyectos .mainExterior .categorias .info__animacion, .mainExterior .categorias .mainProyectos .info__personaje, .mainProyectos .mainExterior .categorias .info__personaje, .mainExterior .categorias .mainProyectos .info__presentacion, .mainProyectos .mainExterior .categorias .info__presentacion, .mainExterior .categorias .mainProyectos .info__modelado, .mainProyectos .mainExterior .categorias .info__modelado {
+      grid-template-areas: "aromaticas" "hortalizas" "florales" "arboles" "frutales" "suculentas"; } }
+  .mainExterior .categorias .info, .mainExterior .categorias .mainPlagas .info__producto, .mainPlagas .mainExterior .categorias .info__producto, .mainExterior .categorias .mainPlagas .info__espacio, .mainPlagas .mainExterior .categorias .info__espacio, .mainExterior .categorias .mainPlagas .info__animacion, .mainPlagas .mainExterior .categorias .info__animacion, .mainExterior .categorias .mainPlagas .info__personaje, .mainPlagas .mainExterior .categorias .info__personaje, .mainExterior .categorias .mainPlagas .info__presentacion, .mainPlagas .mainExterior .categorias .info__presentacion, .mainExterior .categorias .mainPlagas .info__modelado, .mainPlagas .mainExterior .categorias .info__modelado {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     font-size: 100%;
@@ -716,12 +671,6 @@ header {
     padding-left: 1%;
     color: white;
     border-radius: 5%; }
-  .mainExterior .titProyecto {
-    grid-area: titulo; }
-  .mainExterior .footer__proyectos {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: profoot; }
   .mainExterior #infoClickArom {
     background-color: rgba(66, 66, 65, 0.7);
     position: absolute;
@@ -746,6 +695,18 @@ header {
       color: #D8D8D8; }
     .mainExterior #infoClickHorta span {
       color: #D8D8D8; }
+  .mainExterior #infoClickFlor {
+    background-color: rgba(66, 66, 65, 0.7);
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    right: 8%;
+    line-height: 1.2;
+    display: none; }
+    .mainExterior #infoClickFlor strong {
+      color: #D8D8D8; }
+    .mainExterior #infoClickFlor span {
+      color: #D8D8D8; }
   .mainExterior #infoClickFrut {
     background-color: rgba(66, 66, 65, 0.7);
     position: absolute;
@@ -757,18 +718,6 @@ header {
     .mainExterior #infoClickFrut strong {
       color: #D8D8D8; }
     .mainExterior #infoClickFrut span {
-      color: #D8D8D8; }
-  .mainExterior #infoClickFlor {
-    background-color: rgba(66, 66, 65, 0.7);
-    position: absolute;
-    top: 10%;
-    left: 8%;
-    right: 8%;
-    line-height: 1.2;
-    display: none; }
-    .mainExterior #infoClickFlor strong {
-      color: #D8D8D8; }
-    .mainExterior #infoClickFlor span {
       color: #D8D8D8; }
   .mainExterior #infoClickArb {
     background-color: rgba(66, 66, 65, 0.7);
@@ -797,25 +746,25 @@ header {
   .mainExterior .aromaticas {
     max-height: 100%;
     max-width: 100%;
-    grid-area: producto; }
+    grid-area: aromaticas; }
   .mainExterior .hortalizas {
     max-height: 100%;
     max-width: 100%;
-    grid-area: espacio; }
+    grid-area: hortalizas; }
   .mainExterior .florales {
     max-height: 100%;
     max-width: 100%;
-    grid-area: modelado; }
+    grid-area: florales; }
   .mainExterior .frutales {
     max-height: 100%;
     max-width: 100%;
-    grid-area: grafica; }
+    grid-area: frutales; }
   .mainExterior .arboles {
     max-height: 100%;
     max-width: 100%;
-    grid-area: personaje; }
+    grid-area: arboles; }
   .mainExterior .suculentas {
-    grid-area: animacion;
+    grid-area: suculentas;
     max-height: 100%;
     max-width: 100%; }
   .mainExterior .imgGrilla {
@@ -877,49 +826,51 @@ header {
   .mainExterior .categorias article:hover {
     filter: saturate(100%); }
 
-.mainProyectos {
+.mainPlagas {
   background: #424241; }
-  .mainProyectos .contenido__plagas {
+  .mainPlagas .contenido__plagas {
     padding-top: 50%; }
-  .mainProyectos .row {
+  .mainPlagas .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 8%; }
-  .mainProyectos .card {
+  .mainPlagas .card {
     margin-bottom: 5%;
     width: auto;
+    background-color: #EEEEEE;
     color: grey;
     padding: 0%; }
-    .mainProyectos .card .card__contenido {
+    .mainPlagas .card .card__contenido {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       padding: 0%; }
-      .mainProyectos .card .card__contenido .card-img-top {
+      .mainPlagas .card .card__contenido .card-img-top {
         width: 100%;
         padding: 0%; }
-      .mainProyectos .card .card__contenido .card-text {
+      .mainPlagas .card .card__contenido .card-text {
         width: 90%;
-        text-align: center; }
-      .mainProyectos .card .card__contenido .card-body {
+        text-align: center;
+        color: #424242; }
+      .mainPlagas .card .card__contenido .card-body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 0%; }
-    .mainProyectos .card .info, .mainProyectos .card .info__producto, .mainProyectos .card .info__espacio, .mainProyectos .card .info__animacion, .mainProyectos .card .info__personaje, .mainProyectos .card .info__presentacion, .mainProyectos .card .info__modelado {
+    .mainPlagas .card .info, .mainPlagas .card .info__producto, .mainPlagas .card .info__espacio, .mainPlagas .card .info__animacion, .mainPlagas .card .info__personaje, .mainPlagas .card .info__presentacion, .mainPlagas .card .info__modelado {
       position: relative;
       text-align: center;
       font-family: 'Roboto Condensed', sans-serif;
       font-weight: bold;
       font-size: 30px;
       color: black; }
-  .mainProyectos p {
+  .mainPlagas p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-style: normal;
     margin-bottom: 0; }
-  .mainProyectos .Titulo {
+  .mainPlagas .Titulo {
     color: #D8D8D8;
     font-weight: bold;
     font-size: 150%;
@@ -930,105 +881,13 @@ header {
     font-weight: 500;
     font-style: normal;
     padding: 50px; }
-  @media only screen and (min-width: 1200px) {
-    .mainProyectos .categorias {
-      display: grid;
-      height: 100vh;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      justify-content: space-between;
-      align-content: space-between;
-      grid-template-areas: "titulo titulo titulo titulo titulo" "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
-  .mainProyectos .categorias .info, .mainProyectos .categorias .info__producto, .mainProyectos .categorias .info__espacio, .mainProyectos .categorias .info__animacion, .mainProyectos .categorias .info__personaje, .mainProyectos .categorias .info__presentacion, .mainProyectos .categorias .info__modelado {
-    background-color: rgba(0, 0, 0, 0.7);
-    background-size: cover;
-    font-size: 100%;
-    width: unset;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-right: 1%;
-    padding-left: 1%;
-    color: white;
-    border-radius: 5%; }
-  .mainProyectos .titProyecto {
+  .mainPlagas .titPlaga {
     grid-area: titulo; }
-  .mainProyectos .aromaticas {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: producto; }
-  .mainProyectos .diEspacio {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: espacio; }
-  .mainProyectos .modelados {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: modelado; }
-  .mainProyectos .graficas {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: grafica; }
-  .mainProyectos .personajes {
-    max-height: 100%;
-    max-width: 100%;
-    grid-area: personaje; }
-  .mainProyectos .animaciones {
-    grid-area: animacion;
-    max-height: 100%;
-    max-width: 100%; }
-  .mainProyectos .imgGrilla {
+  .mainPlagas .imgGrilla {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover; }
-  .mainProyectos .aromaticas {
-    position: relative;
-    text-align: center;
-    color: grey; }
-  .mainProyectos .aromaticas p {
-    position: absolute;
-    bottom: 8px;
-    left: 16px; }
-  .mainProyectos .diEspacio {
-    position: relative;
-    text-align: center;
-    color: grey; }
-  .mainProyectos .diEspacio p {
-    position: absolute;
-    bottom: 8px;
-    left: 16px; }
-  .mainProyectos .modelados {
-    position: relative;
-    text-align: center;
-    color: grey; }
-  .mainProyectos .modelados p {
-    position: absolute;
-    bottom: 8px;
-    left: 16px; }
-  .mainProyectos .graficas {
-    position: relative;
-    text-align: center;
-    color: grey; }
-  .mainProyectos .graficas p {
-    position: absolute;
-    bottom: 8px;
-    left: 16px; }
-  .mainProyectos .personajes {
-    position: relative;
-    text-align: center;
-    color: grey; }
-  .mainProyectos .personajes p {
-    position: absolute;
-    bottom: 8px;
-    left: 16px; }
-  .mainProyectos .animaciones {
-    position: relative;
-    text-align: center;
-    color: grey; }
-  .mainProyectos .animaciones p {
-    position: absolute;
-    bottom: 8px;
-    left: 16px; }
 
 footer {
   display: flex;

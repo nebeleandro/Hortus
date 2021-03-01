@@ -402,15 +402,15 @@ header {
         height: 80vh;
     
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 50vh);
+        grid-template-rows: repeat(2, 40vh);
        /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
         justify-content: space-between;
     
         align-content: space-between;
         grid-template-areas:    		
-                "producto producto espacio espacio personaje"
-                "producto producto grafica animacion modelado";
+                "amarilis amarilis montsera montsera croton"
+                "amarilis amarilis sanseveria cala potus";
     
     }
 
@@ -418,21 +418,19 @@ header {
         display: grid;
         
     
-        height: 70vh;
+        height: 180vh;
     
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 80vh);
+        grid-template-rows:  repeat(3, 60vh);
        /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
         justify-content: space-between;
     
         align-content: space-between;
         grid-template-areas:    		
-                "titulo titulo"
-                "producto espacio"
-                "grafica personaje"
-                "modelado animacion"
-                "profoot profoot";
+                "amarilis montsera"
+                "sanseveria croton"
+                "potus cala";
     
     }
 
@@ -440,25 +438,24 @@ header {
         display: grid;
         
     
-        height: 70vh;
+        height: 360vh;
     
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 80vh);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 60vh);
        /* grid-column-gap: 10px;
         grid-row-gap: 10px;*/
         justify-content: space-between;
     
         align-content: space-between;
         grid-template-areas:    		
-                "titulo titulo"
-                "producto producto"
-                "espacio espacio"
-                "modelado modelado"
-                "personaje personaje"
-                "grafica grafica"
-                "animacion animacion";
+                "amarilis"
+                "montsera"
+                "potus"
+                "croton"
+                "sanseveria"
+                "cala";
     
-    }
+   }
 
     .info{
         background-color: rgba($color:black, $alpha: .7);
@@ -474,14 +471,7 @@ header {
     }
 }
     
-    .titProyecto {
-        grid-area: titulo;
-    }
-    .footer__proyectos{
-        max-height: 100%;
-        max-width: 100%;
-        grid-area: profoot; 
-    }
+   
     #infoClickAma{
         background-color: rgba($color:  #424241, $alpha: .7);
         position: absolute;
@@ -562,7 +552,7 @@ header {
      .amarilis {
         max-height: 100%;
         max-width: 100%;
-        grid-area: producto;
+        grid-area: amarilis;
     
         
     }
@@ -572,7 +562,7 @@ header {
      .montsera {
         max-height: 100%;
         max-width: 100%;
-        grid-area: espacio;
+        grid-area: montsera;
     
         
     }
@@ -582,7 +572,7 @@ header {
      .potus {
         max-height: 100%;
         max-width: 100%;
-        grid-area: modelado;
+        grid-area: potus;
     
         
     }
@@ -593,7 +583,7 @@ header {
         
         max-height: 100%;
         max-width: 100%;
-        grid-area: grafica;
+        grid-area: sanseveria;
     
     }
     
@@ -602,13 +592,13 @@ header {
      .croton {
         max-height: 100%;
         max-width: 100%;
-        grid-area: personaje;
+        grid-area: croton;
     
         
     }
     
      .cala {
-        grid-area: animacion;
+        grid-area: cala;
         max-height: 100%;
         max-width: 100%;
     }
@@ -705,7 +695,7 @@ header {
         
 
 
-.mainContacto{
+.mainSoluciones{
 
     
     background: #424241;
@@ -739,7 +729,7 @@ header {
         height:  1000px;
     }
 
-    .slogan__contacto{
+    .slogan__soluciones{
         @extend .slogan;
        /* transform: translate(-0%, 450%);*/
         font-size: 250%;
@@ -781,78 +771,23 @@ header {
        // transform: translate(0%, -15%)
     }
 
-    #gridContacto{
-        #formContact{
-            @include sizes(80%, 100%);
-
-        }
-        #map{
-            @include sizes(80%, 80%);
-        }
-
-        .text_form{
-            width: 100%;
-        }
-    }
  
 
-    .contacto h1{
+   h1{
         padding: 10px;
     }
    
    
-#gridContacto{
-	display: grid;
-	width: 100%;
-	grid-template-rows: 1fr 5fr;
-	grid-template-columns: 1fr 1fr;
-	justify-content: center;
-	grid-template-areas: 
-	"titulo titulo"
-	"form map";
-    background-color: white;
-   padding: 2%;
-	}
-#contactoTitulo{
-	grid-area: titulo;
-    color: black;
-    text-align: center;
-}
-#map{
-    grid-area: map;
-    padding: 10px;
-    width: 40%;
-    margin: 5%;
-}
-#formContact{
-	grid-area: form;
-
-
-
- 	color: black;
- 	
- 	font-family: 'Roboto Condensed', sans-serif;
- 	font-weight: 300;
- 	font-style: normal;
- 	margin: 2%;
-	 border: solid 5px #D8D8D8;
-     padding: 1%;
-     width: 40%;
-     
-     textarea {
-        width: 95%;
+    #alert-calculo{
+        background-color: #EEEEEE;
+        border: solid 25px #424242;
+        color: #424241;
+      
     }
- }
+
 
     
 
-    .robot{
-        color: red;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-    
-    }
     
 }
 .mainExterior {
@@ -945,18 +880,18 @@ h1.contenido__info__titulo {
        display: grid;
        
    
-       height: 90vh;
+       height: 80vh;
    
        grid-template-columns: repeat(5, 1fr);
-       grid-template-rows: repeat(2, 50vh);
+       grid-template-rows: repeat(2, 40vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
        justify-content: space-between;
    
        align-content: space-between;
        grid-template-areas:    		
-               "producto producto espacio espacio personaje"
-               "producto producto grafica animacion modelado";
+               "aromaticas aromaticas hortalizas hortalizas arboles"
+               "aromaticas aromaticas frutales suculentas florales";
    
    }
 
@@ -964,19 +899,19 @@ h1.contenido__info__titulo {
        display: grid;
        
    
-       height: 90vh;
+       height: 180vh;
    
        grid-template-columns: repeat(2, 1fr);
-       grid-template-rows: repeat(3, 80vh);
+       grid-template-rows: repeat(3, 60vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
        justify-content: space-between;
    
        align-content: space-between;
        grid-template-areas:    		
-               "producto espacio"
-               "grafica personaje"
-               "modelado animacion"
+               "aromaticas hortalizas"
+               "frutales arboles"
+               "florales suculentas"
                
    }
 
@@ -984,22 +919,22 @@ h1.contenido__info__titulo {
        display: grid;
        
    
-       height: 90vh;
+       height: 360vh;
    
-       grid-template-columns: repeat(2, 1fr);
-       grid-template-rows: repeat(6, 80vh);
+       grid-template-columns:1fr;
+       grid-template-rows: repeat(6, 60vh);
       /* grid-column-gap: 10px;
        grid-row-gap: 10px;*/
        justify-content: space-between;
    
        align-content: space-between;
        grid-template-areas:    		
-               "producto producto"
-               "espacio espacio"
-               "modelado modelado"
-               "personaje personaje"
-               "grafica grafica"
-               "animacion animacion";
+               "aromaticas"
+               "hortalizas"
+               "florales"
+               "arboles"
+               "frutales"
+               "suculentas";
    
    }
 
@@ -1016,15 +951,6 @@ h1.contenido__info__titulo {
    border-radius: 5%;
    }
 }
-   
-   .titProyecto {
-       grid-area: titulo;
-   }
-   .footer__proyectos{
-       max-height: 100%;
-       max-width: 100%;
-       grid-area: profoot; 
-   }
    
    #infoClickArom{
     background-color: rgba($color:  #424241, $alpha: .7);
@@ -1049,7 +975,19 @@ h1.contenido__info__titulo {
     
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}
-}   
+} 
+#infoClickFlor{
+    background-color: rgba($color:  #424241, $alpha: .7);
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    right: 8%;
+    line-height: 1.2;
+    display: none;
+        
+    strong{color: #D8D8D8;}
+    span{color: #D8D8D8;}
+}  
 #infoClickFrut{
     background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
@@ -1062,18 +1000,7 @@ h1.contenido__info__titulo {
     strong{color: #D8D8D8;}
     span{color: #D8D8D8;}
 }
-#infoClickFlor{
-    background-color: rgba($color:  #424241, $alpha: .7);
-    position: absolute;
-    top: 10%;
-    left: 8%;
-    right: 8%;
-    line-height: 1.2;
-    display: none;
-        
-    strong{color: #D8D8D8;}
-    span{color: #D8D8D8;}
-}
+
 #infoClickArb{
     background-color: rgba($color:  #424241, $alpha: .7);
     position: absolute;
@@ -1101,7 +1028,7 @@ h1.contenido__info__titulo {
     .aromaticas {
        max-height: 100%;
        max-width: 100%;
-       grid-area: producto;
+       grid-area: aromaticas;
 }
  
    
@@ -1110,7 +1037,7 @@ h1.contenido__info__titulo {
     .hortalizas {
        max-height: 100%;
        max-width: 100%;
-       grid-area: espacio;
+       grid-area: hortalizas;
    
        
    }
@@ -1120,7 +1047,7 @@ h1.contenido__info__titulo {
     .florales {
        max-height: 100%;
        max-width: 100%;
-       grid-area: modelado;
+       grid-area: florales;
    
        
    }
@@ -1131,7 +1058,7 @@ h1.contenido__info__titulo {
        
        max-height: 100%;
        max-width: 100%;
-       grid-area: grafica;
+       grid-area: frutales;
    
    }
    
@@ -1140,13 +1067,13 @@ h1.contenido__info__titulo {
     .arboles {
        max-height: 100%;
        max-width: 100%;
-       grid-area: personaje;
+       grid-area: arboles;
    
        
    }
    
     .suculentas {
-       grid-area: animacion;
+       grid-area: suculentas;
        max-height: 100%;
        max-width: 100%;
    }
@@ -1241,7 +1168,7 @@ h1.contenido__info__titulo {
 }
 
 
-.mainProyectos {
+.mainPlagas {
     
     .contenido__plagas{
         padding-top: 50%;
@@ -1249,7 +1176,7 @@ h1.contenido__info__titulo {
     .row{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 8%;
        
         
@@ -1259,7 +1186,7 @@ h1.contenido__info__titulo {
     .card {
         margin-bottom: 5%;
         width: auto;
-       
+        background-color: #EEEEEE;
         
         color: grey;
       
@@ -1281,6 +1208,7 @@ h1.contenido__info__titulo {
     .card-text{
         width: 90%;
         text-align: center;
+        color: #424242;
     }
 
     .card-body{
@@ -1357,99 +1285,16 @@ h1.contenido__info__titulo {
         padding: 50px;
     }
 
-    .categorias {
-        @media only screen and (min-width: 1200px){
-        display: grid;
-        
+ 
     
-        height: 100vh;
-    
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-      
-        justify-content: space-between;
-    
-        align-content: space-between;
-        grid-template-areas:    		
-                "titulo titulo titulo titulo titulo"
-                "producto producto espacio espacio personaje"
-                "producto producto grafica animacion modelado";
-    
-    }
-
-
-    .info{
-        background-color: rgba($color:black, $alpha: .7);
-    background-size: cover;
-    font-size: 100%;
-    width: unset;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-right: 1%;
-    padding-left: 1%;
-    color: white;
-    border-radius: 5%;
-    }
-}
-    
-    .titProyecto {
+    .titPlaga {
         grid-area: titulo;
     }
   
     
-     .aromaticas {
-        max-height: 100%;
-        max-width: 100%;
-        grid-area: producto;
-    
-        
-    }
     
     
     
-     .diEspacio {
-        max-height: 100%;
-        max-width: 100%;
-        grid-area: espacio;
-    
-        
-    }
-    
-    
-    
-     .modelados {
-        max-height: 100%;
-        max-width: 100%;
-        grid-area: modelado;
-    
-        
-    }
-    
-    
-    
-     .graficas { 
-        
-        max-height: 100%;
-        max-width: 100%;
-        grid-area: grafica;
-    
-    }
-    
-    
-    
-     .personajes {
-        max-height: 100%;
-        max-width: 100%;
-        grid-area: personaje;
-    
-        
-    }
-    
-     .animaciones {
-        grid-area: animacion;
-        max-height: 100%;
-        max-width: 100%;
-    }
     
     .imgGrilla {
         width: 100%;
@@ -1458,72 +1303,7 @@ h1.contenido__info__titulo {
         object-fit: cover;
     
     }
-    .aromaticas {
-      position: relative;
-      text-align: center;
-      color: grey;}
-    .aromaticas p {
-    
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-     }
-    .diEspacio {
-      position: relative;
-      text-align: center;
-      color: grey;
-    }
-    .diEspacio p {
-    
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
-    .modelados {
-      position: relative;
-      text-align: center;
-      color: grey;}
-    .modelados p {
-    
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
-    .graficas {
-      position: relative;
-      text-align: center;
-      color: grey;
-    }
-
-    .graficas p {
-    
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
-    .personajes {
-      position: relative;
-      text-align: center;
-      color: grey;}
-    
-    .personajes p {
-    
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
-    .animaciones {
-      position: relative;
-      text-align: center;
-      color: grey;
-    }
-    
-    .animaciones p {
-    
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
+   
 
         
   
