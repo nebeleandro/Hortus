@@ -213,58 +213,54 @@ function validarCampo(event){
 //var info = $('#aromaticasClick');
 
 //info.remove();
+$('.btn-close').click(function(){
+    window.location.reload();
+})
 
 
-$('#fotoArom').hover(function(){
+$('.aromaticas').hover(function(){
 $('#infoClickArom').slideToggle()
 })
 
-$('#fotoHorta').hover(function(){
+$('.hortalizas').hover(function(){
     $('#infoClickHorta').slideToggle()
     })
 
-$('#fotoFlor').hover(function(){
+$('.florales').hover(function(){
 $('#infoClickFlor').slideToggle()
 })
 
-$('#fotoFrut').hover(function(){
+$('.frutales').hover(function(){
 $('#infoClickFrut').slideToggle()
 })
     
-$('#fotoArb').hover(function(){
+$('.arboles').hover(function(){
 $('#infoClickArb').slideToggle()
 })
     
-$('#fotoSuc').hover(function(){
+$('.suculentas').hover(function(){
 $('#infoClickSuc').slideToggle()
 })
-$('#FotoAma').hover(function(){
+$('.amarilis').hover(function(){
 $('#infoClickAma').slideToggle()
 })
     
-$('#FotoMont').hover(function(){
+$('.montsera').hover(function(){
 $('#infoClickMont').slideToggle()
 })
     
-$('#FotoPot').hover(function(){
+$('.potus').hover(function(){
 $('#infoClickPot').slideToggle()
 })
     
-$('#FotoSans').hover(function(){
+$('.sanseveria').hover(function(){
 $('#infoClickSans').slideToggle()
 })
         
-$('#FotoCrot').hover(function(){
+$('.croton').hover(function(){
 $('#infoClickCrot').slideToggle()
 })
         
-$('#FotoCala').hover(function(){
+$('.cala').hover(function(){
 $('#infoClickCala').slideToggle()
-})
-window.onload = function(){
-    document.getElementById('close').onclick = function(){
-        this.parentNode.parentNode.parentNode
-        .removeChild(this.parentNode.parentNode);
-        return false;
-    };
-};
+})  
