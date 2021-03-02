@@ -1187,7 +1187,9 @@ h1.contenido__info__titulo {
         margin-bottom: 5%;
         width: auto;
         background-color: #EEEEEE;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         color: grey;
       
        padding: 0%;
@@ -1201,7 +1203,7 @@ h1.contenido__info__titulo {
     
     .card-img-top{
        
-        width: 100%;
+        width: contain;
         padding: 0%;
     }
 

@@ -839,6 +839,9 @@ header {
     margin-bottom: 5%;
     width: auto;
     background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: grey;
     padding: 0%; }
     .mainPlagas .card .card__contenido {
@@ -847,7 +850,7 @@ header {
       justify-content: space-around;
       padding: 0%; }
       .mainPlagas .card .card__contenido .card-img-top {
-        width: 100%;
+        width: contain;
         padding: 0%; }
       .mainPlagas .card .card__contenido .card-text {
         width: 90%;
