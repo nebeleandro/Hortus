@@ -335,7 +335,7 @@ header {
         top: 25%;
         left: 8%;
         right: 8%;
-        font-size: 90%;
+        font-size: 80%;
         line-height: 1.2;
         display: none;
         
@@ -348,7 +348,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2; 
     display: none;
      
@@ -361,7 +361,7 @@ header {
     top: 2%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     display: none;
     line-height: 1.1;
      
@@ -374,7 +374,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none;
      
@@ -388,7 +388,7 @@ header {
     top: 15%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none;
      
@@ -402,7 +402,7 @@ header {
      top: 5%;
      left: 8%;
      right: 8%;
-     font-size: 90%;
+     font-size: 80%;
      line-height: 1.2;
      display: none; 
      
@@ -721,7 +721,7 @@ h1.contenido__info__titulo {
        grid-template-columns:1fr;
        grid-template-rows: repeat(6, 60vh);
        justify-content: space-between;
-       align-content: space-between;
+       a8lign-content: space-between;
        grid-template-areas:    		
                "aromaticas"
                "hortalizas"
@@ -733,7 +733,7 @@ h1.contenido__info__titulo {
    }
 
    .info{
-       background-color: rgba($color:black, $alpha: .7);
+   background-color: rgba($color:black, $alpha: .7);
    background-size: cover;
    font-size: 100%;
    width: unset;
@@ -752,7 +752,7 @@ h1.contenido__info__titulo {
         top: 15%;
         left: 8%;
         right: 8%;
-        font-size: 90%;
+        font-size: 80%;
         line-height: 1.2;
         display: none; 
         strong{color: #D8D8D8;}
@@ -764,7 +764,7 @@ h1.contenido__info__titulo {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;     
     display: none;
     
@@ -777,7 +777,7 @@ h1.contenido__info__titulo {
     top: 25%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none;
         
@@ -790,7 +790,7 @@ h1.contenido__info__titulo {
     top: 25%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none;
         
@@ -804,7 +804,7 @@ h1.contenido__info__titulo {
     top: 3%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none;    
     
@@ -817,7 +817,7 @@ h1.contenido__info__titulo {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none;     
     
@@ -965,10 +965,7 @@ h1.contenido__info__titulo {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 10%;
-       
-        
-        
+        margin-top: 10%; 
     }
    
     .card {

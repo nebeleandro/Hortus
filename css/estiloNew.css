@@ -245,7 +245,7 @@ header {
     top: 25%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickAma strong {
@@ -258,7 +258,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickMont strong {
@@ -271,7 +271,7 @@ header {
     top: 2%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     display: none;
     line-height: 1.1; }
     .mainInterior #infoClickPot strong {
@@ -284,7 +284,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickSans strong {
@@ -297,7 +297,7 @@ header {
     top: 15%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickCrot strong {
@@ -310,7 +310,7 @@ header {
     top: 5%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickCala strong {
@@ -553,7 +553,7 @@ header {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 60vh);
       justify-content: space-between;
-      align-content: space-between;
+      a8lign-content: space-between;
       grid-template-areas: "aromaticas" "hortalizas" "florales" "arboles" "frutales" "suculentas"; } }
   .mainExterior .categorias .info {
     background-color: rgba(0, 0, 0, 0.7);
@@ -572,7 +572,7 @@ header {
     top: 15%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickArom strong {
@@ -585,7 +585,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickHorta strong {
@@ -598,7 +598,7 @@ header {
     top: 25%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickFlor strong {
@@ -611,7 +611,7 @@ header {
     top: 25%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickFrut strong {
@@ -624,7 +624,7 @@ header {
     top: 3%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickArb strong {
@@ -637,7 +637,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickSuc strong {
