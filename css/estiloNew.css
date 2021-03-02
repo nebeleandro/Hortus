@@ -43,7 +43,7 @@ header {
   header .navbar__center {
     text-align: center; }
   header #navbarNavAltMarkup {
-    transform: translate(0%, 30%);
+    transform: translate(0%, 23%);
     size: 250%;
     background-color: #EEEEEE; }
 
@@ -253,6 +253,7 @@ header {
     top: 25%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickAma strong {
@@ -265,6 +266,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickMont strong {
@@ -277,6 +279,7 @@ header {
     top: 2%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     display: none;
     line-height: 1.1; }
     .mainInterior #infoClickPot strong {
@@ -289,6 +292,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickSans strong {
@@ -301,6 +305,7 @@ header {
     top: 15%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickCrot strong {
@@ -313,6 +318,7 @@ header {
     top: 5%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainInterior #infoClickCala strong {
@@ -579,9 +585,10 @@ header {
   .mainExterior #infoClickArom {
     background-color: rgba(66, 66, 65, 0.7);
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickArom strong {
@@ -594,6 +601,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickHorta strong {
@@ -606,6 +614,7 @@ header {
     top: 25%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickFlor strong {
@@ -618,6 +627,7 @@ header {
     top: 25%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickFrut strong {
@@ -630,6 +640,7 @@ header {
     top: 3%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickArb strong {
@@ -642,6 +653,7 @@ header {
     top: 10%;
     left: 8%;
     right: 8%;
+    font-size: 90%;
     line-height: 1.2;
     display: none; }
     .mainExterior #infoClickSuc strong {
