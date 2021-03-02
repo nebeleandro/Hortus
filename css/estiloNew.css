@@ -36,8 +36,7 @@ header {
     font-weight: bold;
     transform: translate(0%, 3px); }
   header a:hover {
-    background-color: white;
-    color: #0153CA; }
+    background-color: white; }
   header .navbar-toggler {
     position: absolute;
     right: 20px; }
@@ -49,107 +48,7 @@ header {
     background-color: #EEEEEE; }
 
 .contenido {
-  background: #444444;
-  /*
-    .contenido__servicios {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-       
-        
-        background-size: cover;
-        width: 30%;
-        transform: translate(117%, 0%);
-
-       .contenido__servicios__titulo {
-            color: #F6C26B;
-            font-weight: bolder;
-            font-size: 150%;
-            text-align: center;
-            text-transform: uppercase;
-          
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 500;
-            font-style: normal;
-            padding: 2%;
-        }
-
-        li{
-            margin: 10%;
-            padding: 2%;
-            color: #444444;
-            background-color: #F6C26B;
-            width: 100%;
-            text-align: center;
-          
-            height: fit-content;
-            margin-left: 2%;
-            margin-right: 2%;
-            padding-right: 1%;
-            padding-left: 1%;
-            border-radius: 5%;
-            font-weight: bold;
-            
-        }
-
-        .alert-dark{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-
-        .contenido__servicios__lista {
-            color: #D8D8D8;
-            text-align: center;
-            list-style: none;
-            padding: 0%;
-            line-height: 2;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-    }
-*/
-  /*   .contenido__proyectos {
-        padding: 50px;
-        background-color: #F9F6F2;
-        background-size: cover;
-
-        
-
-        .contenido__proyectos__titulo {
-            color: #D8D8D8;
-            font-weight: bold;
-            font-size: 150%;
-            text-align: center;
-            text-transform: uppercase;
-            
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 500;
-            font-style: normal;
-            padding: 50px;
-        }
-
-        
-        .slider {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-           
-        }
-        .slider__imagenes {
-            transform: translate(25%, 0%);
-
-            .carousel-control-next-icon{
-                color: #444444;
-            }
-        }
-    
-    }
-    */ }
+  background: #444444; }
   .contenido p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -337,7 +236,7 @@ header {
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "amarilis" "montsera" "potus" "croton" "sanseveria" "cala"; } }
-  .mainInterior .categorias .info, .mainInterior .categorias .mainPlagas .info__producto, .mainPlagas .mainInterior .categorias .info__producto, .mainInterior .categorias .mainPlagas .info__espacio, .mainPlagas .mainInterior .categorias .info__espacio, .mainInterior .categorias .mainPlagas .info__animacion, .mainPlagas .mainInterior .categorias .info__animacion, .mainInterior .categorias .mainPlagas .info__personaje, .mainPlagas .mainInterior .categorias .info__personaje, .mainInterior .categorias .mainPlagas .info__presentacion, .mainPlagas .mainInterior .categorias .info__presentacion, .mainInterior .categorias .mainPlagas .info__modelado, .mainPlagas .mainInterior .categorias .info__modelado {
+  .mainInterior .categorias .info {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     font-size: 100%;
@@ -554,6 +453,12 @@ header {
     font-weight: 500;
     font-style: normal;
     padding: 10px; }
+  .mainSoluciones .info__text {
+    padding: 3%;
+    background-color: #D8D8D8; }
+    .mainSoluciones .info__text .contenido__info__texto {
+      color: #424241;
+      text-align: center; }
   .mainSoluciones .formSoluciones {
     padding-top: 4%; }
     .mainSoluciones .formSoluciones label {
@@ -660,7 +565,7 @@ header {
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "aromaticas" "hortalizas" "florales" "arboles" "frutales" "suculentas"; } }
-  .mainExterior .categorias .info, .mainExterior .categorias .mainPlagas .info__producto, .mainPlagas .mainExterior .categorias .info__producto, .mainExterior .categorias .mainPlagas .info__espacio, .mainPlagas .mainExterior .categorias .info__espacio, .mainExterior .categorias .mainPlagas .info__animacion, .mainPlagas .mainExterior .categorias .info__animacion, .mainExterior .categorias .mainPlagas .info__personaje, .mainPlagas .mainExterior .categorias .info__personaje, .mainExterior .categorias .mainPlagas .info__presentacion, .mainPlagas .mainExterior .categorias .info__presentacion, .mainExterior .categorias .mainPlagas .info__modelado, .mainPlagas .mainExterior .categorias .info__modelado {
+  .mainExterior .categorias .info {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     font-size: 100%;
@@ -827,70 +732,59 @@ header {
     filter: saturate(100%); }
 
 .mainPlagas {
-  background: #424241; }
-  .mainPlagas .contenido__plagas {
-    padding-top: 50%; }
-  .mainPlagas .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 8%; }
-  .mainPlagas .card {
-    margin-bottom: 5%;
-    width: auto;
-    background-color: #EEEEEE;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: grey;
-    padding: 0%; }
-    .mainPlagas .card .card__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #424241; }
+  .mainPlagas .plagas {
+    background: #424241; }
+    .mainPlagas .plagas h1 {
+      margin-top: 20%;
+      text-align: center;
+      color: #EEEEEE; }
+    .mainPlagas .plagas .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 10%; }
+    .mainPlagas .plagas .card {
+      margin-bottom: 5%;
+      width: auto;
+      background-color: #EEEEEE;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      align-items: center;
+      color: grey;
       padding: 0%; }
-      .mainPlagas .card .card__contenido .card-img-top {
-        width: contain;
-        padding: 0%; }
-      .mainPlagas .card .card__contenido .card-text {
-        width: 90%;
-        text-align: center;
-        color: #424242; }
-      .mainPlagas .card .card__contenido .card-body {
+      .mainPlagas .plagas .card .card__contenido {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         padding: 0%; }
-    .mainPlagas .card .info, .mainPlagas .card .info__producto, .mainPlagas .card .info__espacio, .mainPlagas .card .info__animacion, .mainPlagas .card .info__personaje, .mainPlagas .card .info__presentacion, .mainPlagas .card .info__modelado {
-      position: relative;
-      text-align: center;
-      font-family: 'Roboto Condensed', sans-serif;
-      font-weight: bold;
-      font-size: 30px;
-      color: black; }
-  .mainPlagas p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-bottom: 0; }
-  .mainPlagas .Titulo {
-    color: #D8D8D8;
-    font-weight: bold;
-    font-size: 150%;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    padding: 50px; }
-  .mainPlagas .titPlaga {
-    grid-area: titulo; }
-  .mainPlagas .imgGrilla {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover; }
+        .mainPlagas .plagas .card .card__contenido .card-img-top {
+          width: contain;
+          padding: 0%; }
+        .mainPlagas .plagas .card .card__contenido .card-text {
+          width: 90%;
+          text-align: center;
+          color: #424242; }
+        .mainPlagas .plagas .card .card__contenido .card-body {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 0%; }
+      .mainPlagas .plagas .card .info {
+        position: relative;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: black; }
+    .mainPlagas .plagas p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      margin-bottom: 0; }
 
 footer {
   display: flex;
