@@ -89,8 +89,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: contain;
-    height: 1000px;
-    /*background-size: cover;*/ }
+    height: 1000px; }
     .contenido .contenido__portada .sloganPrincipal {
       padding-top: 100px;
       text-align: center;
@@ -130,7 +129,6 @@ header {
     .contenido .contenido__contacto .contenido__contacto__form {
       display: flex;
       flex-direction: column;
-      /*  justify-content: space-around;*/
       color: black;
       padding: 10px;
       font-family: 'Roboto Condensed', sans-serif;
@@ -209,8 +207,6 @@ header {
       height: 80vh;
       grid-template-columns: repeat(5, 1fr);
       grid-template-rows: repeat(2, 40vh);
-      /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "amarilis amarilis montsera montsera croton" "amarilis amarilis sanseveria cala potus"; } }
@@ -220,8 +216,6 @@ header {
       height: 180vh;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 60vh);
-      /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "amarilis montsera" "sanseveria croton" "potus cala"; } }
@@ -231,8 +225,6 @@ header {
       height: 360vh;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 60vh);
-      /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "amarilis" "montsera" "potus" "croton" "sanseveria" "cala"; } }
@@ -434,7 +426,6 @@ header {
     background-attachment: contain;
     height: 1000px; }
   .mainSoluciones .slogan__soluciones {
-    /* transform: translate(-0%, 450%);*/
     font-size: 250%;
     background-color: rgba(128, 128, 128, 0.7);
     position: absolute;
@@ -503,7 +494,6 @@ header {
     background-attachment: contain;
     height: 1000px; }
   .mainExterior .slogan__exterior {
-    /* transform: translate(0%, 700%);*/
     background-color: rgba(128, 128, 128, 0.7);
     background-size: cover;
     font-size: 250%;
@@ -544,8 +534,6 @@ header {
       height: 80vh;
       grid-template-columns: repeat(5, 1fr);
       grid-template-rows: repeat(2, 40vh);
-      /* grid-column-gap: 10px;
-       grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "aromaticas aromaticas hortalizas hortalizas arboles" "aromaticas aromaticas frutales suculentas florales"; } }
@@ -555,8 +543,6 @@ header {
       height: 180vh;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 60vh);
-      /* grid-column-gap: 10px;
-       grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "aromaticas hortalizas" "frutales arboles" "florales suculentas"; } }
@@ -566,8 +552,6 @@ header {
       height: 360vh;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 60vh);
-      /* grid-column-gap: 10px;
-       grid-row-gap: 10px;*/
       justify-content: space-between;
       align-content: space-between;
       grid-template-areas: "aromaticas" "hortalizas" "florales" "arboles" "frutales" "suculentas"; } }
