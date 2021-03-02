@@ -150,10 +150,10 @@ function calcularPrecio(event){
     console.log(cantPlantas)
     console.log(tipo)
     console.log(plagas[tipo])
-    console.log(dosiXPlantas(plagas[tipo]))
+   // console.log(dosiXPlantas(plagas[tipo]))
     // Este es el cálculo del precio
 
-    var cantidadSv = cantPlantas * dosiXPlantas(plagas[tipo]) + "l de preparado de agua más " + solucion(plagas[tipo]) + ". Las causas son: " + causa(plagas[tipo])
+    var cantidadSv = cantPlantas / 30 + "l de preparado de agua más " + solucion(plagas[tipo]) + ". Las causas son: " + causa(plagas[tipo])
   //  var preparado = parseInt(solucion(plagas[tipo]))
   
 
@@ -168,9 +168,9 @@ function calcularPrecio(event){
     return Number.parseFloat(cantidadSv).toFixed(2);
 }
 
-function dosiXPlantas(plaga){
-    return plaga.dosificacionOrganica / 150 ;
-  }
+//function dosiXPlantas(plaga){
+ //   return plaga.dosificacionOrganica / 150 ;
+ // }
 
   function solucion(plaga){
       return plaga.solucionOrganica

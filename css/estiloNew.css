@@ -833,7 +833,7 @@ header {
   .mainPlagas .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 8%; }
   .mainPlagas .card {
     margin-bottom: 5%;
