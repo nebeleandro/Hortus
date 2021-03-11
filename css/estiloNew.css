@@ -10,12 +10,10 @@
 header {
   align-items: flex-start;
   justify-content: space-between;
-  position: fixed;
   width: 100vw;
   height: 10vh;
   z-index: 99999;
   background-color: #EEEEEE;
-  position: fixed;
   display: inline-flex; }
   header .header__isotipo {
     width: 20vh; }
